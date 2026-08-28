@@ -102,3 +102,11 @@ and `сокруши`, but cannot support complete lines. Its raw output is retai
 a documented weak cross-architecture baseline under
 `transcripts/raw/mms-phrases/`. The model is CC-BY-NC 4.0, unlike the
 Apache-2.0 XLSR checkpoint.
+
+## Refined acoustic boundaries
+
+The remaining wide uncertain phrases contain multiple short-time-energy minima.
+`config/refined-segments.json` splits only those regions at the measured minima,
+without stretching, pitch shifting, or otherwise modifying the audio. This
+final targeted pass tests whether earlier invalid word forms came from joining
+adjacent sung lines.
