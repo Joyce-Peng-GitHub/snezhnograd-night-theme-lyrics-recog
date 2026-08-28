@@ -73,3 +73,16 @@ and `наша победа`. Later fragments repeatedly resemble roots from `О�
 `любви`, `души`, and `священный`, but their surrounding words remain unstable.
 The 248 raw phrase results are archived under
 `transcripts/raw/gigaam-phrases/`; no grammatical repair has been applied.
+
+## Channel-layer decoding
+
+The separated vocal candidates have nearly decorrelated stereo channels, so
+mono downmix can cancel or merge independent choir layers. Lossless left,
+right, and side variants of all three candidates and the original mix were
+decoded against the same phrase manifest with both Russian CTC models. This
+produced 744 additional model/input/segment readings. The right and side layers
+added repeated support for phrases including `Русь моя`, `мои края`,
+`ночь милую`, `до конца`, `синий путь`, `наша победа`, `на нашей земле`, and
+`мою душу`. These are still evaluated by cross-input agreement; a plausible
+word from one channel alone is not accepted. Raw results are stored under
+`transcripts/raw/gigaam-channels/`.
