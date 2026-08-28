@@ -3,10 +3,11 @@ import argparse
 import gc
 import json
 import subprocess
+import wave
 from pathlib import Path
 
+import numpy as np
 import torch
-import torchaudio
 from transformers import Wav2Vec2ForCTC, Wav2Vec2ProcessorWithLM
 
 MODEL_ID = "jonatasgrosman/wav2vec2-large-xlsr-53-russian"
@@ -86,9 +87,22 @@ def load_model(cache_dir: Path, device: str) -> Wav2Vec2ForCTC:
         revision=MODEL_REVISION,
         cache_dir=cache_dir,
         torch_dtype=torch.float32,
+        use_safetensors=False,
     )
     model.eval()
     return model.to(device)
+
+
+def read_pcm16_mono(path: Path) -> tuple[np.ndarray, int]:
+    with wave.open(str(path), "rb") as source:
+        channels = source.getnchannels()
+        sample_rate = source.getframerate()
+        sample_width = source.getsampwidth()
+        frames = source.readframes(source.getnframes())
+    if channels != 1 or sample_width != 2:
+        raise RuntimeError(f"Unexpected chunk format: {path}")
+    waveform = np.frombuffer(frames, dtype="<i2").astype(np.float32) / 32768.0
+    return waveform, sample_rate
 
 
 def decode_files(audio_files: list[Path], args: argparse.Namespace, device: str) -> None:
@@ -113,11 +127,11 @@ def decode_files(audio_files: list[Path], args: argparse.Namespace, device: str)
             "chunks": [],
         }
         for index, chunk in enumerate(chunks, start=1):
-            waveform, sample_rate = torchaudio.load(chunk["path"])
-            if sample_rate != 16000 or waveform.shape[0] != 1:
+            waveform, sample_rate = read_pcm16_mono(chunk["path"])
+            if sample_rate != 16000:
                 raise RuntimeError(f"Unexpected chunk format: {chunk['path']}")
             inputs = processor.feature_extractor(
-                waveform[0].numpy(),
+                waveform,
                 sampling_rate=sample_rate,
                 return_tensors="pt",
             )
