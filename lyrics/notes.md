@@ -29,15 +29,18 @@ a single linear lyric can itself be an approximation.
 | 50.2-53.3 | `Пою тебе ночь {длинную / милую}` | Medium | `по тебе ночь` is stable; the final adjective alternates between `длинную`- and `милую`-like forms. |
 | 53.3-65.0 | Repetition of snow/protection lines | Medium | Repeated structure plus `Боже`, `Русь`, and `мои/твои края`; the snow line remains a candidate. |
 | 65.0-74.5 | `... привольная ... чистая душою ... вечно славящая` | Low | Same roots as 35.5-45.5; the ending repeatedly resembles `вечно славящая` but is not exact. |
-| 99.5-109.5 | Unresolved | Very low | Outputs disagree completely between mix and vocal layers. |
-| 109.5-118.2 | `... души` | Medium | `души` recurs at the phrase end across mono, right, and side layers. |
-| 118.2-124.4 | `... до конца ... путь` | Medium | `до конца` and `путь` recur; the rest of the line is unstable. |
-| 124.4-128.1 | `Пусть ... но истина` | Medium | `Пусть` and `истина` recur across phrase, context, and refined windows. |
-| 128.1-133.0 | `... скорей ... сокруши` | High | Both words recur across Russian CTC models, vocal candidates, and channel layers. |
-| 133.0-137.2 | `Наша победа, наша победа` | High | The repeated phrase is stable in right-channel and broad-context decodes. |
-| 137.2-144.7 | `... Отечество ...` | Low | Only the `Отечеств-` root survives in several right-channel context/refined outputs. |
-| 144.7-153.9 | `... ненавид... разруш...` | Very low | Only these roots repeat; no dependable syntax remains. |
-| 153.9-162.5 | `... его ... имя ... священн...` | Very low | Broad windows suggest these roots, while short windows mostly reject the passage. |
+| 99.5-103.4 | Unresolved | Very low | This lead-in falls before the acoustically aligned repeated form. |
+| 103.4-118.2 | `... жили ... души` | Low | `жили` appears in 8 paired short-window decodes; `душ-` appears in 25 of 32 broad-window decodes. The intervening words remain unstable. |
+| 118.2-124.4 | `... его ... до конца ... путь` | Medium | `его` appears in 7 short-window decodes; `до конца` and `путь` each appear in 8 broad-window decodes. |
+| 124.4-128.1 | `Пусть ... но истина` | Medium | The broad decodes repeatedly supply this frame, while `истин-` appears in 11 paired short and 11 broad outputs. |
+| 128.1-133.0 | `... скорей ... сокруши` | High | `скор-` appears in 17 short-window outputs and `сокруш-/согруш-` in 18 broad-window outputs. |
+| 133.0-136.5 | `Наша победа, наша победа` | High | `побед-` appears in 19 of 32 paired short-window outputs and 14 broad-window outputs. |
+| 136.5-139.1 | `Любовь на свете ...` | Low | Several right-channel and broad E2E decodes align all three words here; the line ending is unstable. |
+| 139.1-142.8 | Unresolved | Very low | Outputs disagree and no content word survives enough independent variants. |
+| 142.8-147.8 | `Отечество люби ... ненавид...` | Low | Four broad-window variants retain each of `Отечеств-` and `ненавид-`; two independently retain `Отечество люби`. |
+| 147.8-153.9 | `... разруш... сердц... душ...` | Very low | Broad paired windows retain these roots, but do not establish dependable syntax. |
+| 153.9-157.5 | `... его ... имя ...` | Low | `его` appears in 10 broad outputs and 4 short outputs; `имя` appears in 3 short and 2 broad outputs. |
+| 157.5-162.6 | `... священн... душ...` | Very low | These roots recur in broad windows, while short windows remain mostly undecodable. |
 
 ## Models and checks
 
@@ -48,10 +51,20 @@ a single linear lyric can itself be an approximation.
 - GigaAM `v3_ctc`, `v3_e2e_ctc`, both RNNT variants, and
   `multilingual_large_ctc` were run with broad, overlapping, phrase, channel,
   and refined-boundary inputs. The Russian CTC models were the most useful.
+- Acoustic self-similarity places the two final musical passes 29.54 seconds
+  apart. Twenty paired phrase/context windows were decoded over 16 mix, stem,
+  and channel inputs. The corresponding windows support the same metrical
+  structure but clearly different content words, so text was not copied from
+  one pass to the other.
+- A CPU/FP32 GigaAM check matched 147 of 160 CUDA/FP16 window outputs exactly.
+  The remaining changes were minor and supplied no new defensible words, so
+  encoder precision is not the limiting factor here.
 - Russian XLSR-53 was decoded both greedily and with its KenLM; it was weaker
   than GigaAM and the language model over-corrected unstable acoustics.
 - MMS-1B with the Russian adapter was run in full FP32. It was also weaker than
   GigaAM and is retained only as an independent negative baseline.
 
 All unedited model outputs are under `transcripts/raw/`. The segment manifests
-are `config/phrase-segments.json` and `config/refined-segments.json`.
+are `config/phrase-segments.json`, `config/refined-segments.json`, and
+`config/repeated-segments.json`. The repetition analysis is documented in
+`reports/repetition-alignment.md`.

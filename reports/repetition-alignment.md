@@ -16,6 +16,12 @@ boundaries differ from the 29.54 second median by at most about 0.1 seconds.
 Eight short phrase pairs support boundary-sensitive decoding, while two broad
 context pairs preserve enough language context for each half of the passage.
 
+The lexical evidence distinguishes the two passes despite their shared musical
+form. The first repeatedly yields `души`, `путь`, `истина`, `скорей`, and
+`сокруши`; the second yields `Наша победа`, `Отечество`, `ненавид-`, `его`,
+`имя`, and `священн-`. The alignment is therefore used to compare metrical
+positions and improve cut points, not to copy words between the two passes.
+
 Reproduce the offset search with:
 
 ```bash
