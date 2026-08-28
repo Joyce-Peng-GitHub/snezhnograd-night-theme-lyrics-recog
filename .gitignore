@@ -1,6 +1,6 @@
 .venv/
+.venv-gigaam/
 .cache/
 work/
 __pycache__/
 *.pyc
-

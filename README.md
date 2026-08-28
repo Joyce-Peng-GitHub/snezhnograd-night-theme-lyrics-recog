@@ -29,6 +29,14 @@ transcribing the Russian choral lyrics in `resources/source.mp4`.
    scripts/transcribe.sh work/stems/*.wav
    ```
 
+5. Cross-check with the Russian-specific GigaAM-v3 CTC models, whose training
+   data includes music and atypical speech:
+
+   ```bash
+   scripts/setup_gigaam.sh
+   scripts/transcribe_gigaam.sh audio/candidates/*.flac
+   ```
+
 Models and intermediate candidates are cached under `.cache/` and `work/` and
 are intentionally excluded from Git. Final audio and lyrics are stored under
 `audio/` and `lyrics/`.
