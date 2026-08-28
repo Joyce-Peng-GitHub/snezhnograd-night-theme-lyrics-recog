@@ -22,6 +22,13 @@ for input in "${inputs[@]}"; do
     -filter:a "pan=mono|c0=0.5*c0-0.5*c1" -c:a flac "$output_dir/${stem}_side.flac"
 done
 
-ffprobe -v error \
-  -show_entries stream=codec_name,sample_rate,channels:format=duration \
-  -of compact=p=0:nk=1 "$output_dir"/*.flac
+for output in "$output_dir"/*.flac; do
+  probe="$(ffprobe -v error \
+    -show_entries stream=codec_name,channels:format=duration \
+    -of default=noprint_wrappers=1 "$output")"
+  grep -qx "codec_name=flac" <<<"$probe"
+  grep -qx "channels=1" <<<"$probe"
+  duration="$(sed -n 's/^duration=//p' <<<"$probe")"
+  awk -v duration="$duration" 'BEGIN { exit !(duration >= 180 && duration < 181) }'
+  printf '%s: mono FLAC, %s seconds\n' "$(basename -- "$output")" "$duration"
+done
