@@ -35,3 +35,17 @@ and a closing description resembling `... и честь хорошая`. It emit
 for the denser second passage except `сокруши` and fragments ending in `души`.
 All raw outputs are archived under `transcripts/raw/gigaam-extra/`; these
 phonetic readings are evidence, not editorially corrected lyrics.
+
+## XLSR-53 Russian
+
+For an architecture-independent check, the Apache-2.0 Russian XLSR-53 model
+`jonatasgrosman/wav2vec2-large-xlsr-53-russian` was pinned to revision
+`2329100508896c6d9b157019803ab5601e6f3406`. The unquantized FP32 checkpoint was
+run on all three vocal candidates with the same 12/6 second window scheme. Both
+greedy CTC and beam search with the model's 1.49 GB KenLM were retained.
+
+XLSR was substantially less intelligible on this singing domain than GigaAM.
+Agreement between candidates provides limited independent support for phonetic
+fragments such as `по тебе`; most beam outputs are language-model rewrites of
+unstable acoustic tokens and must not be treated as lyrics. The complete raw
+greedy and beam output is stored under `transcripts/raw/xlsr-12s/`.
