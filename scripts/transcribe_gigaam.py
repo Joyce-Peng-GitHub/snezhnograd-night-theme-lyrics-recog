@@ -162,8 +162,9 @@ def run_model(model_name: str, audio_files: list[Path], args: argparse.Namespace
         with (args.output_dir / f"{stem}.txt").open("w", encoding="utf-8") as output:
             for chunk in payload["chunks"]:
                 label = f" {chunk['id']}" if "id" in chunk else ""
+                text = f" {chunk['text']}" if chunk["text"] else ""
                 output.write(
-                    f"[{chunk['start']:06.1f}-{chunk['end']:06.1f}{label}] {chunk['text']}\n"
+                    f"[{chunk['start']:06.1f}-{chunk['end']:06.1f}{label}]{text}\n"
                 )
 
     del model
