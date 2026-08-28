@@ -29,6 +29,35 @@ def duration(audio: Path) -> float:
     return float(result.stdout.strip())
 
 
+def write_chunk(audio: Path, chunk: Path, start: float, end: float) -> None:
+    chunk.parent.mkdir(parents=True, exist_ok=True)
+    subprocess.run(
+        [
+            "ffmpeg",
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-y",
+            "-ss",
+            f"{start:.3f}",
+            "-i",
+            str(audio),
+            "-t",
+            f"{end - start:.3f}",
+            "-map",
+            "0:a:0",
+            "-ac",
+            "1",
+            "-ar",
+            "16000",
+            "-c:a",
+            "pcm_s16le",
+            str(chunk),
+        ],
+        check=True,
+    )
+
+
 def make_chunks(audio: Path, chunk_dir: Path, window: float, stride: float) -> list[dict]:
     audio_duration = duration(audio)
     chunks = []
@@ -38,34 +67,38 @@ def make_chunks(audio: Path, chunk_dir: Path, window: float, stride: float) -> l
         if end - start < 1.0:
             break
         chunk = chunk_dir / audio.stem / f"{start:06.1f}.wav"
-        chunk.parent.mkdir(parents=True, exist_ok=True)
-        subprocess.run(
-            [
-                "ffmpeg",
-                "-hide_banner",
-                "-loglevel",
-                "error",
-                "-y",
-                "-ss",
-                f"{start:.3f}",
-                "-i",
-                str(audio),
-                "-t",
-                f"{end - start:.3f}",
-                "-map",
-                "0:a:0",
-                "-ac",
-                "1",
-                "-ar",
-                "16000",
-                "-c:a",
-                "pcm_s16le",
-                str(chunk),
-            ],
-            check=True,
-        )
+        write_chunk(audio, chunk, start, end)
         chunks.append({"start": start, "end": end, "path": chunk})
         start += stride
+    return chunks
+
+
+def load_segments(manifest: Path, audio_duration: float) -> list[dict]:
+    segments = json.loads(manifest.read_text(encoding="utf-8"))
+    if not isinstance(segments, list) or not segments:
+        raise ValueError("segment manifest must contain a non-empty JSON list")
+    seen = set()
+    for segment in segments:
+        segment_id = segment.get("id")
+        start = segment.get("start")
+        end = segment.get("end")
+        if not isinstance(segment_id, str) or not segment_id or segment_id in seen:
+            raise ValueError(f"invalid or duplicate segment id: {segment_id!r}")
+        if not isinstance(start, (int, float)) or not isinstance(end, (int, float)):
+            raise ValueError(f"segment {segment_id} must have numeric bounds")
+        if start < 0 or end > audio_duration or not 1 <= end - start < 25:
+            raise ValueError(f"segment {segment_id} must be 1-25 seconds within the audio")
+        seen.add(segment_id)
+    return segments
+
+
+def make_segment_chunks(audio: Path, chunk_dir: Path, manifest: Path) -> list[dict]:
+    segments = load_segments(manifest, duration(audio))
+    chunks = []
+    for segment in segments:
+        chunk = chunk_dir / audio.stem / f"{segment['id']}.wav"
+        write_chunk(audio, chunk, segment["start"], segment["end"])
+        chunks.append({**segment, "path": chunk})
     return chunks
 
 
@@ -78,12 +111,16 @@ def run_model(model_name: str, audio_files: list[Path], args: argparse.Namespace
         download_root=str(args.model_dir),
     )
     for audio in audio_files:
-        chunks = make_chunks(audio, args.chunk_dir, args.window, args.stride)
+        if args.segment_manifest:
+            chunks = make_segment_chunks(audio, args.chunk_dir, args.segment_manifest)
+        else:
+            chunks = make_chunks(audio, args.chunk_dir, args.window, args.stride)
         payload = {
             "audio": str(audio),
             "model": model_name,
-            "window_seconds": args.window,
-            "stride_seconds": args.stride,
+            "window_seconds": None if args.segment_manifest else args.window,
+            "stride_seconds": None if args.segment_manifest else args.stride,
+            "segment_manifest": str(args.segment_manifest) if args.segment_manifest else None,
             "chunks": [],
         }
         for index, chunk in enumerate(chunks, start=1):
@@ -94,17 +131,20 @@ def run_model(model_name: str, audio_files: list[Path], args: argparse.Namespace
                 item["start"] = round(item["start"] + chunk["start"], 3)
                 item["end"] = round(item["end"] + chunk["start"], 3)
                 words.append(item)
-            payload["chunks"].append(
-                {
-                    "index": index,
-                    "start": chunk["start"],
-                    "end": chunk["end"],
-                    "text": result.text.strip(),
-                    "words": words,
-                }
-            )
+            item = {
+                "index": index,
+                "start": chunk["start"],
+                "end": chunk["end"],
+                "text": result.text.strip(),
+                "words": words,
+            }
+            if "id" in chunk:
+                item["id"] = chunk["id"]
+                item["kind"] = chunk.get("kind")
+            payload["chunks"].append(item)
             print(
-                f"{model_name} {audio.stem} {chunk['start']:6.1f}-{chunk['end']:6.1f}: "
+                f"{model_name} {audio.stem} {chunk.get('id', ''):6} "
+                f"{chunk['start']:6.1f}-{chunk['end']:6.1f}: "
                 f"{result.text.strip()}",
                 flush=True,
             )
@@ -116,8 +156,9 @@ def run_model(model_name: str, audio_files: list[Path], args: argparse.Namespace
         )
         with (args.output_dir / f"{stem}.txt").open("w", encoding="utf-8") as output:
             for chunk in payload["chunks"]:
+                label = f" {chunk['id']}" if "id" in chunk else ""
                 output.write(
-                    f"[{chunk['start']:06.1f}-{chunk['end']:06.1f}] {chunk['text']}\n"
+                    f"[{chunk['start']:06.1f}-{chunk['end']:06.1f}{label}] {chunk['text']}\n"
                 )
 
     del model
@@ -136,6 +177,11 @@ def main() -> None:
     )
     parser.add_argument("--window", type=float, default=24.0)
     parser.add_argument("--stride", type=float, default=12.0)
+    parser.add_argument(
+        "--segment-manifest",
+        type=Path,
+        help="JSON list of named start/end segments; replaces regular windows",
+    )
     parser.add_argument("--chunk-dir", type=Path, default=Path("work/gigaam_chunks"))
     parser.add_argument("--output-dir", type=Path, default=Path("work/gigaam_transcripts"))
     parser.add_argument("--model-dir", type=Path, default=Path(".cache/gigaam"))

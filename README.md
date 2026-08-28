@@ -37,6 +37,14 @@ transcribing the Russian choral lyrics in `resources/source.mp4`.
    scripts/transcribe_gigaam.sh audio/candidates/*.flac
    ```
 
+   For phrase-boundary decoding after the broad pass:
+
+   ```bash
+   scripts/transcribe_gigaam.sh \
+     --segment-manifest config/phrase-segments.json \
+     audio/candidates/*.flac
+   ```
+
 6. Independently cross-check with the Russian XLSR-53 CTC model, preserving
    both raw greedy decoding and a KenLM beam-search result:
 
