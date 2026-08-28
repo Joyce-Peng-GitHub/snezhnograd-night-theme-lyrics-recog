@@ -60,3 +60,16 @@ original mix improved agreement on several first-passage fragments, especially
 denser second passage. Results are stored under
 `transcripts/raw/gigaam-source/` and are used alongside, not in place of, the
 three separated candidates.
+
+## Phrase-boundary decoding
+
+Energy minima and repeated word alignments from the broad passes were used to
+define 23 phrase segments plus 8 wider context segments in
+`config/phrase-segments.json`. Both Russian GigaAM CTC models decoded all
+segments from the three vocal candidates and the original mix. The targeted
+windows reduced cross-line token merging and strengthened agreement on the
+second passage, including `до конца`, `путь`, `истина`, `скорей`, `сокруши`,
+and `наша победа`. Later fragments repeatedly resemble roots from `Отечество`,
+`любви`, `души`, and `священный`, but their surrounding words remain unstable.
+The 248 raw phrase results are archived under
+`transcripts/raw/gigaam-phrases/`; no grammatical repair has been applied.
