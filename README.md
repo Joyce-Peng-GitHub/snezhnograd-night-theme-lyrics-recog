@@ -33,6 +33,9 @@ Models and intermediate candidates are cached under `.cache/` and `work/` and
 are intentionally excluded from Git. Final audio and lyrics are stored under
 `audio/` and `lyrics/`.
 
+The lossless vocal candidates are committed in `audio/candidates/`. See
+`reports/separation.md` for the models, measurements, and checksums.
+
 ## Method
 
 The three vocal candidates trade off accompaniment rejection against retention
