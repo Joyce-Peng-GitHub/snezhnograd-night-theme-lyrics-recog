@@ -1,0 +1,185 @@
+{
+  "audio": "audio/candidates/vocals_full.flac",
+  "mode": "coherent",
+  "model": "large-v3",
+  "language": "ru",
+  "language_probability": 1,
+  "duration": 180.0106875,
+  "word_timestamps": true,
+  "segments": [
+    {
+      "id": 1,
+      "start": 16.700000000000003,
+      "end": 19.6,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.21518841911764705,
+      "no_speech_prob": 0.56787109375,
+      "compression_ratio": 0.8301886792452831,
+      "words": [
+        {
+          "start": 16.700000000000003,
+          "end": 18.1,
+          "word": " Субтитры",
+          "probability": 0.735595703125
+        },
+        {
+          "start": 18.1,
+          "end": 19.46,
+          "word": " создавал",
+          "probability": 0.9034830729166666
+        },
+        {
+          "start": 19.46,
+          "end": 19.6,
+          "word": " DimaTorzok",
+          "probability": 0.9998372395833334
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 45.18,
+      "end": 48.02,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.09972426470588236,
+      "no_speech_prob": 0.1917724609375,
+      "compression_ratio": 0.8301886792452831,
+      "words": [
+        {
+          "start": 45.18,
+          "end": 46.58,
+          "word": " Субтитры",
+          "probability": 0.8091796875
+        },
+        {
+          "start": 46.58,
+          "end": 47.2,
+          "word": " создавал",
+          "probability": 0.8323567708333334
+        },
+        {
+          "start": 47.2,
+          "end": 48.02,
+          "word": " DimaTorzok",
+          "probability": 0.999755859375
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 80.8,
+      "end": 89.92,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.05758846507352941,
+      "no_speech_prob": 0.11090087890625,
+      "compression_ratio": 0.8301886792452831,
+      "words": [
+        {
+          "start": 80.8,
+          "end": 82.2,
+          "word": " Субтитры",
+          "probability": 0.876318359375
+        },
+        {
+          "start": 82.2,
+          "end": 82.26,
+          "word": " создавал",
+          "probability": 0.8894856770833334
+        },
+        {
+          "start": 82.26,
+          "end": 89.92,
+          "word": " DimaTorzok",
+          "probability": 0.9998372395833334
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 108.32,
+      "end": 119.98,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.056439568014705885,
+      "no_speech_prob": 0.115966796875,
+      "compression_ratio": 0.8301886792452831,
+      "words": [
+        {
+          "start": 108.32,
+          "end": 109.72,
+          "word": " Субтитры",
+          "probability": 0.758056640625
+        },
+        {
+          "start": 109.72,
+          "end": 111.12,
+          "word": " создавал",
+          "probability": 0.8707682291666666
+        },
+        {
+          "start": 111.12,
+          "end": 119.98,
+          "word": " DimaTorzok",
+          "probability": 0.9996744791666666
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 141.94,
+      "end": 148.68,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.06336167279411764,
+      "no_speech_prob": 0.1927490234375,
+      "compression_ratio": 0.8301886792452831,
+      "words": [
+        {
+          "start": 141.94,
+          "end": 143.34,
+          "word": " Субтитры",
+          "probability": 0.77333984375
+        },
+        {
+          "start": 143.34,
+          "end": 143.98,
+          "word": " создавал",
+          "probability": 0.8343098958333334
+        },
+        {
+          "start": 143.98,
+          "end": 148.68,
+          "word": " DimaTorzok",
+          "probability": 0.9998372395833334
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 158.2,
+      "end": 167.64,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.22954963235294118,
+      "no_speech_prob": 0.0428466796875,
+      "compression_ratio": 0.8301886792452831,
+      "words": [
+        {
+          "start": 158.2,
+          "end": 159.6,
+          "word": " Субтитры",
+          "probability": 0.873193359375
+        },
+        {
+          "start": 159.6,
+          "end": 161.0,
+          "word": " создавал",
+          "probability": 0.8377278645833334
+        },
+        {
+          "start": 161.0,
+          "end": 167.64,
+          "word": " DimaTorzok",
+          "probability": 0.9998372395833334
+        }
+      ]
+    }
+  ]
+}

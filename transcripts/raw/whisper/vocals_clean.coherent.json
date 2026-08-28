@@ -1,0 +1,81 @@
+{
+  "audio": "audio/candidates/vocals_clean.flac",
+  "mode": "coherent",
+  "model": "large-v3",
+  "language": "ru",
+  "language_probability": 1,
+  "duration": 180.0106875,
+  "word_timestamps": false,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 5.0,
+      "text": "ПЕСНЯ",
+      "avg_logprob": -0.3774414137005806,
+      "no_speech_prob": 0.66845703125,
+      "compression_ratio": 0.5263157894736842,
+      "words": []
+    },
+    {
+      "id": 2,
+      "start": 30.0,
+      "end": 35.0,
+      "text": "ПЕСНЯ",
+      "avg_logprob": -0.059509280137717724,
+      "no_speech_prob": 0.19921875,
+      "compression_ratio": 0.5263157894736842,
+      "words": []
+    },
+    {
+      "id": 3,
+      "start": 60.0,
+      "end": 65.0,
+      "text": "ПЕСНЯ",
+      "avg_logprob": -0.036926270462572575,
+      "no_speech_prob": 0.11895751953125,
+      "compression_ratio": 0.5263157894736842,
+      "words": []
+    },
+    {
+      "id": 4,
+      "start": 90.0,
+      "end": 95.0,
+      "text": "ПЕСНЯ",
+      "avg_logprob": -0.06469726655632257,
+      "no_speech_prob": 0.1632080078125,
+      "compression_ratio": 0.5263157894736842,
+      "words": []
+    },
+    {
+      "id": 5,
+      "start": 120.0,
+      "end": 125.0,
+      "text": "ПЕСНЯ",
+      "avg_logprob": -0.06222533993422985,
+      "no_speech_prob": 0.30078125,
+      "compression_ratio": 0.5263157894736842,
+      "words": []
+    },
+    {
+      "id": 6,
+      "start": 150.0,
+      "end": 155.0,
+      "text": "ПЕСНЯ",
+      "avg_logprob": -0.20361328683793545,
+      "no_speech_prob": 0.11553955078125,
+      "compression_ratio": 0.5263157894736842,
+      "words": []
+    },
+    {
+      "id": 7,
+      "start": 180.0,
+      "end": 185.0,
+      "text": "ПЕСНЯ",
+      "avg_logprob": -0.07232666295021772,
+      "no_speech_prob": 0.498046875,
+      "compression_ratio": 0.5263157894736842,
+      "words": []
+    }
+  ]
+}

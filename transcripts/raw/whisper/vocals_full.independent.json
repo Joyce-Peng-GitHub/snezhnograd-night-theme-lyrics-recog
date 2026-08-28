@@ -1,0 +1,81 @@
+{
+  "audio": "audio/candidates/vocals_full.flac",
+  "mode": "independent",
+  "model": "large-v3",
+  "language": "ru",
+  "language_probability": 1,
+  "duration": 180.0106875,
+  "word_timestamps": false,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 29.98,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.21518841911764705,
+      "no_speech_prob": 0.56787109375,
+      "compression_ratio": 0.8301886792452831,
+      "words": []
+    },
+    {
+      "id": 2,
+      "start": 30.0,
+      "end": 59.980000000000004,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.14441636029411764,
+      "no_speech_prob": 0.7861328125,
+      "compression_ratio": 0.8301886792452831,
+      "words": []
+    },
+    {
+      "id": 3,
+      "start": 60.0,
+      "end": 89.98,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.09317555147058823,
+      "no_speech_prob": 0.703125,
+      "compression_ratio": 0.8301886792452831,
+      "words": []
+    },
+    {
+      "id": 4,
+      "start": 90.0,
+      "end": 119.98,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.12683823529411764,
+      "no_speech_prob": 0.81103515625,
+      "compression_ratio": 0.8301886792452831,
+      "words": []
+    },
+    {
+      "id": 5,
+      "start": 120.0,
+      "end": 149.98,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.15659466911764705,
+      "no_speech_prob": 0.8955078125,
+      "compression_ratio": 0.8301886792452831,
+      "words": []
+    },
+    {
+      "id": 6,
+      "start": 150.0,
+      "end": 167.64,
+      "text": "Редактор субтитров А.Семкин Корректор А.Егорова",
+      "avg_logprob": -0.223958326710595,
+      "no_speech_prob": 0.41650390625,
+      "compression_ratio": 1.1139240506329113,
+      "words": []
+    },
+    {
+      "id": 7,
+      "start": 180.0,
+      "end": 209.98,
+      "text": "Продолжение следует...",
+      "avg_logprob": -0.12451172322034836,
+      "no_speech_prob": 0.93408203125,
+      "compression_ratio": 0.8333333333333334,
+      "words": []
+    }
+  ]
+}

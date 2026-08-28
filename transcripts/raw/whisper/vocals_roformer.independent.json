@@ -1,0 +1,81 @@
+{
+  "audio": "audio/candidates/vocals_roformer.flac",
+  "mode": "independent",
+  "model": "large-v3",
+  "language": "ru",
+  "language_probability": 1,
+  "duration": 180.0106875,
+  "word_timestamps": false,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 29.98,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.21806066176470587,
+      "no_speech_prob": 0.66552734375,
+      "compression_ratio": 0.8301886792452831,
+      "words": []
+    },
+    {
+      "id": 2,
+      "start": 30.0,
+      "end": 59.980000000000004,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.14510569852941177,
+      "no_speech_prob": 0.77734375,
+      "compression_ratio": 0.8301886792452831,
+      "words": []
+    },
+    {
+      "id": 3,
+      "start": 60.0,
+      "end": 89.98,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.1159811580882353,
+      "no_speech_prob": 0.68359375,
+      "compression_ratio": 0.8301886792452831,
+      "words": []
+    },
+    {
+      "id": 4,
+      "start": 90.0,
+      "end": 119.98,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.13809742647058823,
+      "no_speech_prob": 0.80224609375,
+      "compression_ratio": 0.8301886792452831,
+      "words": []
+    },
+    {
+      "id": 5,
+      "start": 120.0,
+      "end": 149.98,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.16923253676470587,
+      "no_speech_prob": 0.8740234375,
+      "compression_ratio": 0.8301886792452831,
+      "words": []
+    },
+    {
+      "id": 6,
+      "start": 150.0,
+      "end": 179.98,
+      "text": "Субтитры создавал DimaTorzok",
+      "avg_logprob": -0.21415441176470587,
+      "no_speech_prob": 0.33642578125,
+      "compression_ratio": 0.8301886792452831,
+      "words": []
+    },
+    {
+      "id": 7,
+      "start": 180.0,
+      "end": 209.98,
+      "text": "Продолжение следует...",
+      "avg_logprob": -0.1248046875,
+      "no_speech_prob": 0.93359375,
+      "compression_ratio": 0.8333333333333334,
+      "words": []
+    }
+  ]
+}
