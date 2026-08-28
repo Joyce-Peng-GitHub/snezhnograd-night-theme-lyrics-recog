@@ -67,6 +67,17 @@ transcribing the Russian choral lyrics in `resources/source.mp4`.
    system RAM if GPU memory is exhausted; use `--device cpu` to select that path
    explicitly.
 
+7. For an independent billion-parameter acoustic check, decode phrase segments
+   with Meta MMS-1B and its Russian adapter:
+
+   ```bash
+   scripts/transcribe_mms.sh audio/candidates/vocals_full.flac
+   ```
+
+   MMS-1B is loaded unquantized in FP32 and can fall back to system RAM. Its
+   CC-BY-NC 4.0 license permits this local non-commercial analysis but is more
+   restrictive than the Apache-2.0 XLSR checkpoint.
+
 Models and intermediate candidates are cached under `.cache/` and `work/` and
 are intentionally excluded from Git. Final audio and lyrics are stored under
 `audio/` and `lyrics/`.
