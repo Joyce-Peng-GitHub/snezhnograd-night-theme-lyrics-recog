@@ -1,0 +1,68 @@
+[
+  {
+    "id": "chorus-line-2-a",
+    "start": 105.1,
+    "end": 109.25,
+    "variants": [
+      {"id": "human", "lines": ["Пусть некогда прекрасна и сильна."]},
+      {"id": "rus", "lines": ["Русь некогда прекрасна и сильна."]},
+      {"id": "rus-was", "lines": ["Русь некогда была прекрасна и сильна."]}
+    ]
+  },
+  {
+    "id": "chorus-line-2-b",
+    "start": 134.64,
+    "end": 138.79,
+    "variants": [
+      {"id": "human", "lines": ["Пусть некогда прекрасна и сильна."]},
+      {"id": "rus", "lines": ["Русь некогда прекрасна и сильна."]},
+      {"id": "rus-was", "lines": ["Русь некогда была прекрасна и сильна."]}
+    ]
+  },
+  {
+    "id": "chorus-line-3-a",
+    "start": 109.45,
+    "end": 113.35,
+    "variants": [
+      {"id": "human", "lines": ["Свободу прославляла в мир сией,"]},
+      {"id": "locative", "lines": ["Свободу прославляла в мире сем,"]},
+      {"id": "accusative", "lines": ["Свободу прославляла в мир сей,"]},
+      {"id": "gerund", "lines": ["Свободу прославляя в мире сем,"]}
+    ]
+  },
+  {
+    "id": "chorus-line-3-b",
+    "start": 138.99,
+    "end": 142.89,
+    "variants": [
+      {"id": "human", "lines": ["Свободу прославляла в мир сией,"]},
+      {"id": "locative", "lines": ["Свободу прославляла в мире сем,"]},
+      {"id": "accusative", "lines": ["Свободу прославляла в мир сей,"]},
+      {"id": "gerund", "lines": ["Свободу прославляя в мире сем,"]}
+    ]
+  },
+  {
+    "id": "chorus-line-4-a",
+    "start": 113.15,
+    "end": 117.65,
+    "variants": [
+      {"id": "human", "lines": ["Царице-то по-прежнему не послужи."]},
+      {"id": "topic-infinitive", "lines": ["Царице-то по-прежнему не послужить."]},
+      {"id": "demonstrative-imperative", "lines": ["Царице той по-прежнему не послужи."]},
+      {"id": "demonstrative-infinitive", "lines": ["Царице той по-прежнему не послужить."]},
+      {"id": "demonstrative-first-plural", "lines": ["Царице той по-прежнему не послужим."]}
+    ]
+  },
+  {
+    "id": "chorus-line-4-b",
+    "start": 142.69,
+    "end": 147.19,
+    "variants": [
+      {"id": "human", "lines": ["Царице-то по-прежнему не послужи."]},
+      {"id": "topic-infinitive", "lines": ["Царице-то по-прежнему не послужить."]},
+      {"id": "demonstrative-imperative", "lines": ["Царице той по-прежнему не послужи."]},
+      {"id": "demonstrative-infinitive", "lines": ["Царице той по-прежнему не послужить."]},
+      {"id": "demonstrative-first-plural", "lines": ["Царице той по-прежнему не послужим."]}
+    ]
+  }
+]
