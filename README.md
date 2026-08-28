@@ -88,6 +88,16 @@ transcribing the Russian choral lyrics in `resources/source.mp4`.
    system RAM if GPU memory is exhausted; use `--device cpu` to select that path
    explicitly.
 
+   An externally supplied lyric can be tested without feeding it to a language
+   model. The following command computes character-level CTC likelihoods and
+   forced word/line times for every variant in the hypothesis manifest:
+
+   ```bash
+   .venv-xlsr/bin/python scripts/score_lyrics_ctc.py \
+     --manifest config/human-transcript-hypotheses.json \
+     audio/candidates/vocals_full.flac
+   ```
+
 7. For an independent billion-parameter acoustic check, decode phrase segments
    with Meta MMS-1B and its Russian adapter:
 
