@@ -82,6 +82,11 @@ Models and intermediate candidates are cached under `.cache/` and `work/` and
 are intentionally excluded from Git. Final audio and lyrics are stored under
 `audio/` and `lyrics/`.
 
+The final deliverables are `lyrics/lyrics.ru.txt`, synchronized
+`lyrics/lyrics.ru.srt`, and the confidence/evidence record in
+`lyrics/notes.md`. Braces and explicit `[неразборчиво]` markers are retained
+because this recording does not support a defensible complete transcript.
+
 The lossless vocal candidates are committed in `audio/candidates/`. See
 `reports/separation.md` for the models, measurements, and checksums.
 
