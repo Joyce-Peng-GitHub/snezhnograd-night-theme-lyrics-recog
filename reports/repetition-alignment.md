@@ -28,3 +28,12 @@ Reproduce the offset search with:
 
 This alignment establishes repeated timing and musical material. It does not,
 by itself, justify filling a word that no decoder recovers from either pass.
+
+## Full-precision check
+
+The two GigaAM CTC variants were also run with FP32 encoder weights on the CPU
+for `vocals_full` and the three most informative right-channel candidates. Of
+160 paired-window outputs, 147 were exactly the same as CUDA/FP16. The 13
+changes were limited to individual letters, spaces, or short unstable tokens;
+none supplied a new defensible lyric. System RAM therefore removes precision
+as a plausible bottleneck, but does not resolve the overlapping choir.
