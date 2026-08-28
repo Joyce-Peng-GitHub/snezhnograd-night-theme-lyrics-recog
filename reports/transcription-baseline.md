@@ -86,3 +86,19 @@ added repeated support for phrases including `Русь моя`, `мои края
 `мою душу`. These are still evaluated by cross-input agreement; a plausible
 word from one channel alone is not accepted. Raw results are stored under
 `transcripts/raw/gigaam-channels/`.
+
+## MMS-1B Russian adapter
+
+Meta's `facebook/mms-1b-all` was pinned to revision
+`3d33597edbdaaba14a8e858e2c8caa76e3cec0cd` and loaded in unquantized FP32 with
+its `rus` adapter. The billion-parameter model decoded 217 phrase/input pairs
+from the full vocal candidate and its channel layers plus the original-mix
+layers. It fit on the RTX 4060 without a RAM fallback, although the script
+supports running the same FP32 checkpoint on CPU.
+
+MMS was markedly weaker than GigaAM on this choir and sometimes emitted invalid
+characters. It independently reproduced a few roots such as `Боже`, `ночь`,
+and `сокруши`, but cannot support complete lines. Its raw output is retained as
+a documented weak cross-architecture baseline under
+`transcripts/raw/mms-phrases/`. The model is CC-BY-NC 4.0, unlike the
+Apache-2.0 XLSR checkpoint.

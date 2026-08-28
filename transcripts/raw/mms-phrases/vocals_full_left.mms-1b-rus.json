@@ -1,0 +1,259 @@
+{
+  "audio": "work/channel_candidates/vocals_full_left.flac",
+  "model": "facebook/mms-1b-all",
+  "revision": "3d33597edbdaaba14a8e858e2c8caa76e3cec0cd",
+  "language_adapter": "rus",
+  "device": "cuda",
+  "dtype": "float32",
+  "segment_manifest": "config/phrase-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "id": "p1-00",
+      "kind": "phrase",
+      "start": 14.5,
+      "end": 16.3,
+      "text": "ти"
+    },
+    {
+      "index": 2,
+      "id": "p1-01",
+      "kind": "phrase",
+      "start": 16.5,
+      "end": 20.7,
+      "text": ""
+    },
+    {
+      "index": 3,
+      "id": "p1-02",
+      "kind": "phrase",
+      "start": 20.7,
+      "end": 23.7,
+      "text": "оседено еепуе"
+    },
+    {
+      "index": 4,
+      "id": "p1-03",
+      "kind": "phrase",
+      "start": 23.7,
+      "end": 28.1,
+      "text": "00ими0 ии маи а"
+    },
+    {
+      "index": 5,
+      "id": "p1-04",
+      "kind": "phrase",
+      "start": 28.1,
+      "end": 31.8,
+      "text": "ухаoше кусыпар"
+    },
+    {
+      "index": 6,
+      "id": "p1-05",
+      "kind": "phrase",
+      "start": 31.8,
+      "end": 35.5,
+      "text": "ухб00е ри калу"
+    },
+    {
+      "index": 7,
+      "id": "p1-06",
+      "kind": "phrase",
+      "start": 35.5,
+      "end": 45.5,
+      "text": "лукагот репонаю ичееспагушаа"
+    },
+    {
+      "index": 8,
+      "id": "p1-07",
+      "kind": "phrase",
+      "start": 45.5,
+      "end": 50.2,
+      "text": "тт ттс т"
+    },
+    {
+      "index": 9,
+      "id": "p1-08",
+      "kind": "phrase",
+      "start": 50.2,
+      "end": 53.3,
+      "text": "пожеме носеели моут"
+    },
+    {
+      "index": 10,
+      "id": "p1-09",
+      "kind": "phrase",
+      "start": 53.2,
+      "end": 57.7,
+      "text": "ише ми та аа"
+    },
+    {
+      "index": 11,
+      "id": "p1-10",
+      "kind": "phrase",
+      "start": 57.7,
+      "end": 61.4,
+      "text": "ука боже пуслиле паряот"
+    },
+    {
+      "index": 12,
+      "id": "p1-11",
+      "kind": "phrase",
+      "start": 61.4,
+      "end": 65.0,
+      "text": "а уыы а"
+    },
+    {
+      "index": 13,
+      "id": "p1-12",
+      "kind": "phrase",
+      "start": 65.0,
+      "end": 72.5,
+      "text": "укаа брпура ичиспар ушар"
+    },
+    {
+      "index": 14,
+      "id": "p1-13",
+      "kind": "phrase",
+      "start": 72.5,
+      "end": 74.5,
+      "text": "е"
+    },
+    {
+      "index": 15,
+      "id": "p2-01",
+      "kind": "phrase",
+      "start": 99.5,
+      "end": 109.5,
+      "text": "ен0амате уэба стесна ди туна тисп"
+    },
+    {
+      "index": 16,
+      "id": "p2-02",
+      "kind": "phrase",
+      "start": 109.5,
+      "end": 118.2,
+      "text": "0 0уа бcd сари0е укди бodи пoуши"
+    },
+    {
+      "index": 17,
+      "id": "p2-03",
+      "kind": "phrase",
+      "start": 118.2,
+      "end": 124.4,
+      "text": "онапцааеа одапоцаса ош цее или о"
+    },
+    {
+      "index": 18,
+      "id": "p2-04",
+      "kind": "phrase",
+      "start": 124.4,
+      "end": 133.0,
+      "text": "едабиноариина опашаписнаре уше ну со пуши"
+    },
+    {
+      "index": 19,
+      "id": "p2-05",
+      "kind": "phrase",
+      "start": 133.0,
+      "end": 137.1,
+      "text": "отее  ае е"
+    },
+    {
+      "index": 20,
+      "id": "p2-06",
+      "kind": "phrase",
+      "start": 137.1,
+      "end": 144.5,
+      "text": "еуыи аре е а  але ае  ае е"
+    },
+    {
+      "index": 21,
+      "id": "p2-07",
+      "kind": "phrase",
+      "start": 144.5,
+      "end": 150.0,
+      "text": "аниае  е ее  ае"
+    },
+    {
+      "index": 22,
+      "id": "p2-08",
+      "kind": "phrase",
+      "start": 150.0,
+      "end": 159.2,
+      "text": "о   се оне с  ек гуио убелиснани науо шо  еи"
+    },
+    {
+      "index": 23,
+      "id": "p2-09",
+      "kind": "phrase",
+      "start": 159.2,
+      "end": 164.3,
+      "text": ""
+    },
+    {
+      "index": 24,
+      "id": "c1-01",
+      "kind": "context",
+      "start": 14.5,
+      "end": 23.7,
+      "text": "oене ни у о0ене н еу"
+    },
+    {
+      "index": 25,
+      "id": "c1-02",
+      "kind": "context",
+      "start": 23.7,
+      "end": 35.5,
+      "text": "и ухапoше у0ы па ухапoше ри каo"
+    },
+    {
+      "index": 26,
+      "id": "c1-03",
+      "kind": "context",
+      "start": 35.5,
+      "end": 53.3,
+      "text": "ке     отененочеситу  поененосин"
+    },
+    {
+      "index": 27,
+      "id": "c1-04",
+      "kind": "context",
+      "start": 53.2,
+      "end": 74.5,
+      "text": "аиеирта укабoче пустирипар   укабoче пуриига укабо бунебо наа иисвар оша   иисар ушаа"
+    },
+    {
+      "index": 28,
+      "id": "c2-01",
+      "kind": "context",
+      "start": 99.5,
+      "end": 118.2,
+      "text": "дену0аподе луба сдисдадидуда ди0пида 00пак0ула ба бd сади0еукади и бли пау0и"
+    },
+    {
+      "index": 29,
+      "id": "c2-02",
+      "kind": "context",
+      "start": 118.2,
+      "end": 137.1,
+      "text": "ионапцоио   ойнапецосаушо цевили мол погедо но биноалиина опашаписнарерушену со пуше инаша подееееареето"
+    },
+    {
+      "index": 30,
+      "id": "c2-03",
+      "kind": "context",
+      "start": 137.1,
+      "end": 154.0,
+      "text": "ееыми o арешеа еа  оееи  янишаи  е уошое    пеееос со оне  с"
+    },
+    {
+      "index": 31,
+      "id": "c2-04",
+      "kind": "context",
+      "start": 144.5,
+      "end": 164.3,
+      "text": "ш зо  е оне с оео поиo нелинаи нао ее  пи"
+    }
+  ]
+}

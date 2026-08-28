@@ -1,0 +1,259 @@
+{
+  "audio": "work/channel_candidates/source_left.flac",
+  "model": "facebook/mms-1b-all",
+  "revision": "3d33597edbdaaba14a8e858e2c8caa76e3cec0cd",
+  "language_adapter": "rus",
+  "device": "cuda",
+  "dtype": "float32",
+  "segment_manifest": "config/phrase-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "id": "p1-00",
+      "kind": "phrase",
+      "start": 14.5,
+      "end": 16.3,
+      "text": "у ы"
+    },
+    {
+      "index": 2,
+      "id": "p1-01",
+      "kind": "phrase",
+      "start": 16.5,
+      "end": 20.7,
+      "text": "е"
+    },
+    {
+      "index": 3,
+      "id": "p1-02",
+      "kind": "phrase",
+      "start": 20.7,
+      "end": 23.7,
+      "text": "ене"
+    },
+    {
+      "index": 4,
+      "id": "p1-03",
+      "kind": "phrase",
+      "start": 23.7,
+      "end": 28.1,
+      "text": "стили0теэ и ма"
+    },
+    {
+      "index": 5,
+      "id": "p1-04",
+      "kind": "phrase",
+      "start": 28.1,
+      "end": 31.8,
+      "text": "капo0ет 0ы ар"
+    },
+    {
+      "index": 6,
+      "id": "p1-05",
+      "kind": "phrase",
+      "start": 31.8,
+      "end": 35.5,
+      "text": "бу0е при аd"
+    },
+    {
+      "index": 7,
+      "id": "p1-06",
+      "kind": "phrase",
+      "start": 35.5,
+      "end": 45.5,
+      "text": "кабтуе бобау и чиспабуч"
+    },
+    {
+      "index": 8,
+      "id": "p1-07",
+      "kind": "phrase",
+      "start": 45.5,
+      "end": 50.2,
+      "text": "поете ое"
+    },
+    {
+      "index": 9,
+      "id": "p1-08",
+      "kind": "phrase",
+      "start": 50.2,
+      "end": 53.3,
+      "text": "еп о ее"
+    },
+    {
+      "index": 10,
+      "id": "p1-09",
+      "kind": "phrase",
+      "start": 53.2,
+      "end": 57.7,
+      "text": "е е то е"
+    },
+    {
+      "index": 11,
+      "id": "p1-10",
+      "kind": "phrase",
+      "start": 57.7,
+      "end": 61.4,
+      "text": "ауце устие тое"
+    },
+    {
+      "index": 12,
+      "id": "p1-11",
+      "kind": "phrase",
+      "start": 61.4,
+      "end": 65.0,
+      "text": "ыэ а"
+    },
+    {
+      "index": 13,
+      "id": "p1-12",
+      "kind": "phrase",
+      "start": 65.0,
+      "end": 72.5,
+      "text": "ае аа ичиса тушаеа о то"
+    },
+    {
+      "index": 14,
+      "id": "p1-13",
+      "kind": "phrase",
+      "start": 72.5,
+      "end": 74.5,
+      "text": "е"
+    },
+    {
+      "index": 15,
+      "id": "p2-01",
+      "kind": "phrase",
+      "start": 99.5,
+      "end": 109.5,
+      "text": "ы у  э  а э аэ та а  е у э"
+    },
+    {
+      "index": 16,
+      "id": "p2-02",
+      "kind": "phrase",
+      "start": 109.5,
+      "end": 118.2,
+      "text": "ееы ее атысе умы е ее уеее а"
+    },
+    {
+      "index": 17,
+      "id": "p2-03",
+      "kind": "phrase",
+      "start": 118.2,
+      "end": 124.4,
+      "text": "аамиау аа ее у у сее тумита"
+    },
+    {
+      "index": 18,
+      "id": "p2-04",
+      "kind": "phrase",
+      "start": 124.4,
+      "end": 133.0,
+      "text": "е уе    ааые уее ее  а ае"
+    },
+    {
+      "index": 19,
+      "id": "p2-05",
+      "kind": "phrase",
+      "start": 133.0,
+      "end": 137.1,
+      "text": ""
+    },
+    {
+      "index": 20,
+      "id": "p2-06",
+      "kind": "phrase",
+      "start": 137.1,
+      "end": 144.5,
+      "text": "ееые  е     ее е"
+    },
+    {
+      "index": 21,
+      "id": "p2-07",
+      "kind": "phrase",
+      "start": 144.5,
+      "end": 150.0,
+      "text": "еаи ее е  ее ее е е е"
+    },
+    {
+      "index": 22,
+      "id": "p2-08",
+      "kind": "phrase",
+      "start": 150.0,
+      "end": 159.2,
+      "text": "у ее е у  ее ои  еуи а    ее"
+    },
+    {
+      "index": 23,
+      "id": "p2-09",
+      "kind": "phrase",
+      "start": 159.2,
+      "end": 164.3,
+      "text": ""
+    },
+    {
+      "index": 24,
+      "id": "c1-01",
+      "kind": "context",
+      "start": 14.5,
+      "end": 23.7,
+      "text": "енеи   0ене  тее у"
+    },
+    {
+      "index": 25,
+      "id": "c1-02",
+      "kind": "context",
+      "start": 23.7,
+      "end": 35.5,
+      "text": "ие oе0и паь  ухабo0е при аd"
+    },
+    {
+      "index": 26,
+      "id": "c1-03",
+      "kind": "context",
+      "start": 35.5,
+      "end": 53.3,
+      "text": "каеа ииса      пепепе епе пи"
+    },
+    {
+      "index": 27,
+      "id": "c1-04",
+      "kind": "context",
+      "start": 53.2,
+      "end": 74.5,
+      "text": "укапуце спи пое  укатутепурее кае уатуунепу п   ичисо туш  о  и"
+    },
+    {
+      "index": 28,
+      "id": "c2-01",
+      "kind": "context",
+      "start": 99.5,
+      "end": 118.2,
+      "text": "ы а   еаета а е улиа у е    ы  а еы   эты0е умы ы е оыии а"
+    },
+    {
+      "index": 29,
+      "id": "c2-02",
+      "kind": "context",
+      "start": 118.2,
+      "end": 137.1,
+      "text": "аа  ааее у  ее умита у а эи  ее уиа аапи у ее у эса еа   ее ууа уае"
+    },
+    {
+      "index": 30,
+      "id": "c2-03",
+      "kind": "context",
+      "start": 137.1,
+      "end": 154.0,
+      "text": "е  отее ее е   ееае ее е  ое е о о есоее  оаца  ее"
+    },
+    {
+      "index": 31,
+      "id": "c2-04",
+      "kind": "context",
+      "start": 144.5,
+      "end": 164.3,
+      "text": "иаи  и  ееа о еае  оаца     у еае  у еа ои  е ои а  о а и  ее   е"
+    }
+  ]
+}

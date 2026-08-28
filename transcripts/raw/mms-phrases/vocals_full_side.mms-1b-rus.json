@@ -1,0 +1,259 @@
+{
+  "audio": "work/channel_candidates/vocals_full_side.flac",
+  "model": "facebook/mms-1b-all",
+  "revision": "3d33597edbdaaba14a8e858e2c8caa76e3cec0cd",
+  "language_adapter": "rus",
+  "device": "cuda",
+  "dtype": "float32",
+  "segment_manifest": "config/phrase-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "id": "p1-00",
+      "kind": "phrase",
+      "start": 14.5,
+      "end": 16.3,
+      "text": "е  е"
+    },
+    {
+      "index": 2,
+      "id": "p1-01",
+      "kind": "phrase",
+      "start": 16.5,
+      "end": 20.7,
+      "text": "о0те  ое"
+    },
+    {
+      "index": 3,
+      "id": "p1-02",
+      "kind": "phrase",
+      "start": 20.7,
+      "end": 23.7,
+      "text": "осете о чу"
+    },
+    {
+      "index": 4,
+      "id": "p1-03",
+      "kind": "phrase",
+      "start": 23.7,
+      "end": 28.1,
+      "text": "0лиие ии али"
+    },
+    {
+      "index": 5,
+      "id": "p1-04",
+      "kind": "phrase",
+      "start": 28.1,
+      "end": 31.8,
+      "text": "ухапoше пусипар"
+    },
+    {
+      "index": 6,
+      "id": "p1-05",
+      "kind": "phrase",
+      "start": 31.8,
+      "end": 35.5,
+      "text": "у000е ври ал"
+    },
+    {
+      "index": 7,
+      "id": "p1-06",
+      "kind": "phrase",
+      "start": 35.5,
+      "end": 45.5,
+      "text": "укагат урегомаа ишрискар уш а"
+    },
+    {
+      "index": 8,
+      "id": "p1-07",
+      "kind": "phrase",
+      "start": 45.5,
+      "end": 50.2,
+      "text": "oчененочсили"
+    },
+    {
+      "index": 9,
+      "id": "p1-08",
+      "kind": "phrase",
+      "start": 50.2,
+      "end": 53.3,
+      "text": "посепе ночупееноиут"
+    },
+    {
+      "index": 10,
+      "id": "p1-09",
+      "kind": "phrase",
+      "start": 53.2,
+      "end": 57.7,
+      "text": "ачиешебие та"
+    },
+    {
+      "index": 11,
+      "id": "p1-10",
+      "kind": "phrase",
+      "start": 57.7,
+      "end": 61.4,
+      "text": "ухабоже постелепал"
+    },
+    {
+      "index": 12,
+      "id": "p1-11",
+      "kind": "phrase",
+      "start": 61.4,
+      "end": 65.0,
+      "text": "а еы а"
+    },
+    {
+      "index": 13,
+      "id": "p1-12",
+      "kind": "phrase",
+      "start": 65.0,
+      "end": 72.5,
+      "text": "утаа ре пор да  ичиса руса ь"
+    },
+    {
+      "index": 14,
+      "id": "p1-13",
+      "kind": "phrase",
+      "start": 72.5,
+      "end": 74.5,
+      "text": ""
+    },
+    {
+      "index": 15,
+      "id": "p2-01",
+      "kind": "phrase",
+      "start": 99.5,
+      "end": 109.5,
+      "text": "ину0амале руры сте сна ти ту на ни0   н"
+    },
+    {
+      "index": 16,
+      "id": "p2-02",
+      "kind": "phrase",
+      "start": 109.5,
+      "end": 118.2,
+      "text": "у0у а би  d  сд00о0ри и ли  фу0и"
+    },
+    {
+      "index": 17,
+      "id": "p2-03",
+      "kind": "phrase",
+      "start": 118.2,
+      "end": 124.4,
+      "text": "ипуна кцаарумы то о да кцаа у е ири"
+    },
+    {
+      "index": 18,
+      "id": "p2-04",
+      "kind": "phrase",
+      "start": 124.4,
+      "end": 133.0,
+      "text": "теламиноса риина лодашатискоре уче нусо круши"
+    },
+    {
+      "index": 19,
+      "id": "p2-05",
+      "kind": "phrase",
+      "start": 133.0,
+      "end": 137.1,
+      "text": "е  е"
+    },
+    {
+      "index": 20,
+      "id": "p2-06",
+      "kind": "phrase",
+      "start": 137.1,
+      "end": 144.5,
+      "text": "ече аниоареста   е аи ооте еи"
+    },
+    {
+      "index": 21,
+      "id": "p2-07",
+      "kind": "phrase",
+      "start": 144.5,
+      "end": 150.0,
+      "text": "аdе аеа е е ее"
+    },
+    {
+      "index": 22,
+      "id": "p2-08",
+      "kind": "phrase",
+      "start": 150.0,
+      "end": 159.2,
+      "text": "л е   не пли o убе ки нари а  ч  е"
+    },
+    {
+      "index": 23,
+      "id": "p2-09",
+      "kind": "phrase",
+      "start": 159.2,
+      "end": 164.3,
+      "text": ""
+    },
+    {
+      "index": 24,
+      "id": "c1-01",
+      "kind": "context",
+      "start": 14.5,
+      "end": 23.7,
+      "text": "o0елте сае  о0елте оч"
+    },
+    {
+      "index": 25,
+      "id": "c1-02",
+      "kind": "context",
+      "start": 23.7,
+      "end": 35.5,
+      "text": "ухпoше пусипаь укабoше пhика"
+    },
+    {
+      "index": 26,
+      "id": "c1-03",
+      "kind": "context",
+      "start": 35.5,
+      "end": 53.3,
+      "text": "е поцененосчусилину ю посененочупилин"
+    },
+    {
+      "index": 27,
+      "id": "c1-04",
+      "kind": "context",
+      "start": 53.2,
+      "end": 74.5,
+      "text": "раиеееукабоческелепа укабочепуигаа  укабонеподая ичистагоша иисоачаа"
+    },
+    {
+      "index": 28,
+      "id": "c2-01",
+      "kind": "context",
+      "start": 99.5,
+      "end": 118.2,
+      "text": "ено0авле булуо  ске сундиту а dи0 ин0 укк0уна а d d сд00о0ри и и а фуш"
+    },
+    {
+      "index": 29,
+      "id": "c2-02",
+      "kind": "context",
+      "start": 118.2,
+      "end": 137.1,
+      "text": "иконакцомитор койдакцосопушуци иримол оедономимо а иина одашаписноре учненуусо пруши  ехашападееуоае ито"
+    },
+    {
+      "index": 30,
+      "id": "c2-03",
+      "kind": "context",
+      "start": 137.1,
+      "end": 154.0,
+      "text": "ечеоник ареш еа ееои оееи анишаенае и ое о е ео пеза е о цее оне проск"
+    },
+    {
+      "index": 31,
+      "id": "c2-04",
+      "kind": "context",
+      "start": 144.5,
+      "end": 164.3,
+      "text": "аdишааы о е      пеа o  ее оне ус  афе пои o неиаи н о а еио  напили пи"
+    }
+  ]
+}
