@@ -1,5 +1,6 @@
 .venv/
 .venv-gigaam/
+.venv-xlsr/
 .cache/
 work/
 __pycache__/

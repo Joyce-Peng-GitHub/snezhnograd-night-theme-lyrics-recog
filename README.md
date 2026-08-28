@@ -37,6 +37,18 @@ transcribing the Russian choral lyrics in `resources/source.mp4`.
    scripts/transcribe_gigaam.sh audio/candidates/*.flac
    ```
 
+6. Independently cross-check with the Russian XLSR-53 CTC model, preserving
+   both raw greedy decoding and a KenLM beam-search result:
+
+   ```bash
+   scripts/setup_xlsr.sh
+   scripts/transcribe_xlsr.sh audio/candidates/*.flac
+   ```
+
+   The model runs unquantized in FP32. `--device auto` falls back from CUDA to
+   system RAM if GPU memory is exhausted; use `--device cpu` to select that path
+   explicitly.
+
 Models and intermediate candidates are cached under `.cache/` and `work/` and
 are intentionally excluded from Git. Final audio and lyrics are stored under
 `audio/` and `lyrics/`.
