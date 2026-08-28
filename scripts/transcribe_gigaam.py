@@ -126,7 +126,12 @@ def run_model(model_name: str, audio_files: list[Path], args: argparse.Namespace
 def main() -> None:
     parser = argparse.ArgumentParser(description="Cross-decode Russian singing with GigaAM")
     parser.add_argument("audio", nargs="+", type=Path)
-    parser.add_argument("--models", nargs="+", default=["v3_ctc", "v3_e2e_ctc"])
+    parser.add_argument(
+        "--model",
+        action="append",
+        dest="models",
+        help="model to run; repeat for multiple models (default: v3_ctc and v3_e2e_ctc)",
+    )
     parser.add_argument("--window", type=float, default=24.0)
     parser.add_argument("--stride", type=float, default=12.0)
     parser.add_argument("--chunk-dir", type=Path, default=Path("work/gigaam_chunks"))
@@ -139,10 +144,9 @@ def main() -> None:
     if not 0 < args.stride <= args.window:
         parser.error("stride must be greater than zero and no larger than window")
 
-    for model_name in args.models:
+    for model_name in args.models or ["v3_ctc", "v3_e2e_ctc"]:
         run_model(model_name, args.audio, args)
 
 
 if __name__ == "__main__":
     main()
-
