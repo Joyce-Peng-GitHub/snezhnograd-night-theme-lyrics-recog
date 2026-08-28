@@ -1,0 +1,90 @@
+[
+  {
+    "id": "chorus-line-2-a",
+    "start": 105.1,
+    "end": 109.25,
+    "variants": [
+      {"id": "pust", "lines": ["Пусть некогда прекрасна и сильна."]},
+      {"id": "rus", "lines": ["Русь некогда прекрасна и сильна."]},
+      {"id": "pust-was", "lines": ["Пусть некогда была прекрасна и сильна."]},
+      {"id": "rus-was", "lines": ["Русь некогда была прекрасна и сильна."]}
+    ]
+  },
+  {
+    "id": "chorus-line-2-b",
+    "start": 134.64,
+    "end": 138.79,
+    "variants": [
+      {"id": "pust", "lines": ["Пусть некогда прекрасна и сильна."]},
+      {"id": "rus", "lines": ["Русь некогда прекрасна и сильна."]},
+      {"id": "pust-was", "lines": ["Пусть некогда была прекрасна и сильна."]},
+      {"id": "rus-was", "lines": ["Русь некогда была прекрасна и сильна."]}
+    ]
+  },
+  {
+    "id": "chorus-line-3-ending-a",
+    "start": 111.45,
+    "end": 113.35,
+    "variants": [
+      {"id": "human", "lines": ["в мир сией"]},
+      {"id": "locative-archaic", "lines": ["в мире сем"]},
+      {"id": "accusative-archaic", "lines": ["в мир сей"]},
+      {"id": "locative-same", "lines": ["в мире сей"]},
+      {"id": "whole-world", "lines": ["во всём мире"]}
+    ]
+  },
+  {
+    "id": "chorus-line-3-ending-b",
+    "start": 140.99,
+    "end": 142.89,
+    "variants": [
+      {"id": "human", "lines": ["в мир сией"]},
+      {"id": "locative-archaic", "lines": ["в мире сем"]},
+      {"id": "accusative-archaic", "lines": ["в мир сей"]},
+      {"id": "locative-same", "lines": ["в мире сей"]},
+      {"id": "whole-world", "lines": ["во всём мире"]}
+    ]
+  },
+  {
+    "id": "chorus-line-4-noun-a",
+    "start": 113.2,
+    "end": 114.5,
+    "variants": [
+      {"id": "topic-particle", "lines": ["Царице-то"]},
+      {"id": "demonstrative", "lines": ["Царице той"]}
+    ]
+  },
+  {
+    "id": "chorus-line-4-noun-b",
+    "start": 142.74,
+    "end": 144.04,
+    "variants": [
+      {"id": "topic-particle", "lines": ["Царице-то"]},
+      {"id": "demonstrative", "lines": ["Царице той"]}
+    ]
+  },
+  {
+    "id": "chorus-line-4-ending-a",
+    "start": 115.65,
+    "end": 117.65,
+    "variants": [
+      {"id": "imperative", "lines": ["не послужи"]},
+      {"id": "infinitive", "lines": ["не послужить"]},
+      {"id": "first-plural", "lines": ["не послужим"]},
+      {"id": "second-singular", "lines": ["не послужишь"]},
+      {"id": "imperfective-imperative", "lines": ["не служи"]}
+    ]
+  },
+  {
+    "id": "chorus-line-4-ending-b",
+    "start": 145.19,
+    "end": 147.19,
+    "variants": [
+      {"id": "imperative", "lines": ["не послужи"]},
+      {"id": "infinitive", "lines": ["не послужить"]},
+      {"id": "first-plural", "lines": ["не послужим"]},
+      {"id": "second-singular", "lines": ["не послужишь"]},
+      {"id": "imperfective-imperative", "lines": ["не служи"]}
+    ]
+  }
+]
