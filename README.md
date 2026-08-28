@@ -57,6 +57,15 @@ transcribing the Russian choral lyrics in `resources/source.mp4`.
      audio/candidates/*.flac
    ```
 
+   On a machine where VRAM forces half precision, a selected candidate can be
+   checked with the encoder in system RAM at full precision:
+
+   ```bash
+   scripts/transcribe_gigaam.sh --device cpu --fp32-encoder \
+     --segment-manifest config/repeated-segments.json \
+     audio/candidates/vocals_full.flac
+   ```
+
    The separated stems retain decorrelated left and right choir layers. Decode
    lossless left, right, and side variants when checking uncertain phrases:
 

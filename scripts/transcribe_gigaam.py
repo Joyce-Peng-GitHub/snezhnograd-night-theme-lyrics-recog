@@ -104,10 +104,13 @@ def make_segment_chunks(audio: Path, chunk_dir: Path, manifest: Path) -> list[di
 
 def run_model(model_name: str, audio_files: list[Path], args: argparse.Namespace) -> None:
     print(f"Loading {model_name}...", flush=True)
+    device = "cuda" if args.device == "auto" and torch.cuda.is_available() else args.device
+    if device == "auto":
+        device = "cpu"
     model = gigaam.load_model(
         model_name,
-        device="cuda",
-        fp16_encoder=True,
+        device=device,
+        fp16_encoder=not args.fp32_encoder,
         download_root=str(args.model_dir),
     )
     for audio in audio_files:
@@ -118,6 +121,8 @@ def run_model(model_name: str, audio_files: list[Path], args: argparse.Namespace
         payload = {
             "audio": str(audio),
             "model": model_name,
+            "device": device,
+            "encoder_precision": "fp32" if args.fp32_encoder else "fp16",
             "window_seconds": None if args.segment_manifest else args.window,
             "stride_seconds": None if args.segment_manifest else args.stride,
             "segment_manifest": str(args.segment_manifest) if args.segment_manifest else None,
@@ -185,6 +190,17 @@ def main() -> None:
     parser.add_argument("--chunk-dir", type=Path, default=Path("work/gigaam_chunks"))
     parser.add_argument("--output-dir", type=Path, default=Path("work/gigaam_transcripts"))
     parser.add_argument("--model-dir", type=Path, default=Path(".cache/gigaam"))
+    parser.add_argument(
+        "--device",
+        choices=["auto", "cuda", "cpu"],
+        default="auto",
+        help="inference device (default: auto)",
+    )
+    parser.add_argument(
+        "--fp32-encoder",
+        action="store_true",
+        help="keep encoder weights in FP32; useful for CPU verification",
+    )
     args = parser.parse_args()
 
     if args.window >= 25:
