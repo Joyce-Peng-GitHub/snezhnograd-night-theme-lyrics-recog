@@ -45,6 +45,18 @@ transcribing the Russian choral lyrics in `resources/source.mp4`.
      audio/candidates/*.flac
    ```
 
+   The passage beginning near 01:44 repeats after about 29.54 seconds. Reproduce
+   the acoustic offset analysis and decode both performances at paired phrase
+   boundaries with:
+
+   ```bash
+   .venv/bin/python scripts/analyze_repetition.py \
+     audio/source.wav audio/candidates/*.flac
+   scripts/transcribe_gigaam.sh \
+     --segment-manifest config/repeated-segments.json \
+     audio/candidates/*.flac
+   ```
+
    The separated stems retain decorrelated left and right choir layers. Decode
    lossless left, right, and side variants when checking uncertain phrases:
 

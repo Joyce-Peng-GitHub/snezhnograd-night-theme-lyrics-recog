@@ -1,0 +1,22 @@
+[
+  {"id": "repeat-p01-a", "pair": "repeat-p01", "iteration": 1, "start": 103.40, "end": 109.60, "kind": "repeated_phrase"},
+  {"id": "repeat-p01-b", "pair": "repeat-p01", "iteration": 2, "start": 132.99, "end": 139.11, "kind": "repeated_phrase"},
+  {"id": "repeat-p02-a", "pair": "repeat-p02", "iteration": 1, "start": 109.60, "end": 113.28, "kind": "repeated_phrase"},
+  {"id": "repeat-p02-b", "pair": "repeat-p02", "iteration": 2, "start": 139.11, "end": 142.76, "kind": "repeated_phrase"},
+  {"id": "repeat-p03-a", "pair": "repeat-p03", "iteration": 1, "start": 113.28, "end": 116.80, "kind": "repeated_phrase"},
+  {"id": "repeat-p03-b", "pair": "repeat-p03", "iteration": 2, "start": 142.76, "end": 146.32, "kind": "repeated_phrase"},
+  {"id": "repeat-p04-a", "pair": "repeat-p04", "iteration": 1, "start": 116.80, "end": 118.17, "kind": "repeated_phrase"},
+  {"id": "repeat-p04-b", "pair": "repeat-p04", "iteration": 2, "start": 146.32, "end": 147.80, "kind": "repeated_phrase"},
+  {"id": "repeat-p05-a", "pair": "repeat-p05", "iteration": 1, "start": 118.17, "end": 120.66, "kind": "repeated_phrase"},
+  {"id": "repeat-p05-b", "pair": "repeat-p05", "iteration": 2, "start": 147.80, "end": 150.16, "kind": "repeated_phrase"},
+  {"id": "repeat-p06-a", "pair": "repeat-p06", "iteration": 1, "start": 120.66, "end": 124.36, "kind": "repeated_phrase"},
+  {"id": "repeat-p06-b", "pair": "repeat-p06", "iteration": 2, "start": 150.16, "end": 153.89, "kind": "repeated_phrase"},
+  {"id": "repeat-p07-a", "pair": "repeat-p07", "iteration": 1, "start": 124.36, "end": 128.05, "kind": "repeated_phrase"},
+  {"id": "repeat-p07-b", "pair": "repeat-p07", "iteration": 2, "start": 153.89, "end": 157.47, "kind": "repeated_phrase"},
+  {"id": "repeat-p08-a", "pair": "repeat-p08", "iteration": 1, "start": 128.05, "end": 132.99, "kind": "repeated_phrase"},
+  {"id": "repeat-p08-b", "pair": "repeat-p08", "iteration": 2, "start": 157.47, "end": 162.58, "kind": "repeated_phrase"},
+  {"id": "repeat-c01-a", "pair": "repeat-c01", "iteration": 1, "start": 103.40, "end": 118.17, "kind": "repeated_context"},
+  {"id": "repeat-c01-b", "pair": "repeat-c01", "iteration": 2, "start": 132.99, "end": 147.80, "kind": "repeated_context"},
+  {"id": "repeat-c02-a", "pair": "repeat-c02", "iteration": 1, "start": 118.17, "end": 132.99, "kind": "repeated_context"},
+  {"id": "repeat-c02-b", "pair": "repeat-c02", "iteration": 2, "start": 147.80, "end": 162.58, "kind": "repeated_context"}
+]
