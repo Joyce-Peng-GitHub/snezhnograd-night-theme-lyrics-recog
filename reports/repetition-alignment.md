@@ -16,11 +16,12 @@ boundaries differ from the 29.54 second median by at most about 0.1 seconds.
 Eight short phrase pairs support boundary-sensitive decoding, while two broad
 context pairs preserve enough language context for each half of the passage.
 
-The lexical evidence distinguishes the two passes despite their shared musical
-form. The first repeatedly yields `души`, `путь`, `истина`, `скорей`, and
-`сокруши`; the second yields `Наша победа`, `Отечество`, `ненавид-`, `его`,
-`имя`, and `священн-`. The alignment is therefore used to compare metrical
-positions and improve cut points, not to copy words between the two passes.
+Unrestricted ASR assigns very different words to the two passes even though the
+human transcript identifies an exact chorus repetition. Forced alignment shows
+that the human text fits the first pass and its final lines explain the stable
+ASR fragments. The same text is therefore mapped onto the second pass using
+the acoustic phrase pairs; free-ASR differences are treated as choral decoding
+errors rather than evidence for a second lyric.
 
 Reproduce the offset search with:
 
@@ -32,8 +33,9 @@ Reproduce the offset search with:
   audio/candidates/vocals_roformer.flac
 ```
 
-This alignment establishes repeated timing and musical material. It does not,
-by itself, justify filling a word that no decoder recovers from either pass.
+This alignment establishes repeated timing and musical material. The wording is
+supported separately by the human transcript and the CTC validation documented
+in `reports/human-transcript-validation.md`.
 
 ## Full-precision check
 

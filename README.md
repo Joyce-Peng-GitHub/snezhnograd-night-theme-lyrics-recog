@@ -98,6 +98,10 @@ transcribing the Russian choral lyrics in `resources/source.mp4`.
      audio/candidates/vocals_full.flac
    ```
 
+   The committed validation compares the human wording across 16 mix, stem,
+   and channel inputs. See `reports/human-transcript-validation.md` for the
+   accepted corrections and the one remaining chorus-line alternative.
+
 7. For an independent billion-parameter acoustic check, decode phrase segments
    with Meta MMS-1B and its Russian adapter:
 
