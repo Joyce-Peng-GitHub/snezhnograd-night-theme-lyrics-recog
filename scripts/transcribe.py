@@ -16,21 +16,29 @@ def timestamp(seconds: float) -> str:
 
 def transcribe(model: WhisperModel, audio: Path, output_dir: Path, mode: str) -> None:
     condition_on_previous_text = mode == "coherent"
-    segments_iter, info = model.transcribe(
-        str(audio),
-        language="ru",
-        task="transcribe",
-        beam_size=10,
-        patience=2.0,
-        temperature=0.0,
-        condition_on_previous_text=condition_on_previous_text,
-        word_timestamps=True,
-        vad_filter=False,
-        compression_ratio_threshold=2.4,
-        log_prob_threshold=-1.0,
-        no_speech_threshold=0.6,
-    )
-    segments = list(segments_iter)
+    options = {
+        "language": "ru",
+        "task": "transcribe",
+        "beam_size": 10,
+        "patience": 2.0,
+        "temperature": 0.0,
+        "condition_on_previous_text": condition_on_previous_text,
+        "word_timestamps": True,
+        "vad_filter": False,
+        "compression_ratio_threshold": 2.4,
+        "log_prob_threshold": -1.0,
+        "no_speech_threshold": 0.6,
+        "repetition_penalty": 1.15,
+        "no_repeat_ngram_size": 3,
+    }
+    segments_iter, info = model.transcribe(str(audio), **options)
+    try:
+        segments = list(segments_iter)
+    except IndexError:
+        # Singing can yield text tokens but no valid DTW alignment path.
+        options["word_timestamps"] = False
+        segments_iter, info = model.transcribe(str(audio), **options)
+        segments = list(segments_iter)
     stem = f"{audio.stem}.{mode}"
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -41,6 +49,7 @@ def transcribe(model: WhisperModel, audio: Path, output_dir: Path, mode: str) ->
         "language": info.language,
         "language_probability": info.language_probability,
         "duration": info.duration,
+        "word_timestamps": options["word_timestamps"],
         "segments": [
             {
                 "id": segment.id,
@@ -96,4 +105,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
