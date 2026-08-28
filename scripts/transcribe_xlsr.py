@@ -2,12 +2,16 @@
 import argparse
 import gc
 import json
+import os
 import subprocess
 import wave
 from pathlib import Path
 
 import numpy as np
 import torch
+
+os.environ.setdefault("DISABLE_SAFETENSORS_CONVERSION", "1")
+
 from transformers import Wav2Vec2ForCTC, Wav2Vec2ProcessorWithLM
 
 MODEL_ID = "jonatasgrosman/wav2vec2-large-xlsr-53-russian"
