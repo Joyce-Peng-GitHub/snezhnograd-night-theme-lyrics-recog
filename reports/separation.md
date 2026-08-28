@@ -17,6 +17,12 @@ candidate provides an independent baseline. All three are retained for
 cross-decoding because no objective separation score can be computed without
 the original studio stems.
 
+The candidate channels are nearly decorrelated (Pearson correlation from
+`-0.0070` to `0.0016` over the full tracks), and their side channels are within
+`0.4 dB` of the mid-channel energy in both vocal passages. Direct mono downmix
+can therefore suppress choir information. `scripts/prepare_channel_variants.sh`
+creates lossless left, right, and side variants for uncertain-phrase decoding.
+
 ## SHA-256
 
 ```text

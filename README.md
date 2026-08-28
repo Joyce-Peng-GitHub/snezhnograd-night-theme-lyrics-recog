@@ -45,6 +45,16 @@ transcribing the Russian choral lyrics in `resources/source.mp4`.
      audio/candidates/*.flac
    ```
 
+   The separated stems retain decorrelated left and right choir layers. Decode
+   lossless left, right, and side variants when checking uncertain phrases:
+
+   ```bash
+   scripts/prepare_channel_variants.sh
+   scripts/transcribe_gigaam.sh \
+     --segment-manifest config/phrase-segments.json \
+     work/channel_candidates/*.flac
+   ```
+
 6. Independently cross-check with the Russian XLSR-53 CTC model, preserving
    both raw greedy decoding and a KenLM beam-search result:
 
