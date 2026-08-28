@@ -1,0 +1,399 @@
+{
+  "audio": "work/channel_candidates/source_left.flac",
+  "model": "v3_e2e_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/repeated-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 103.4,
+      "end": 109.6,
+      "text": "Б тебя без тебя.",
+      "words": [
+        {
+          "text": "Б",
+          "start": 103.4,
+          "end": 103.48
+        },
+        {
+          "text": "тебя",
+          "start": 107.16,
+          "end": 107.2
+        },
+        {
+          "text": "без",
+          "start": 108.08,
+          "end": 108.44
+        },
+        {
+          "text": "тебя.",
+          "start": 109.0,
+          "end": 109.6
+        }
+      ],
+      "id": "repeat-p01-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 2,
+      "start": 132.99,
+      "end": 139.11,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 132.99,
+          "end": 139.11
+        }
+      ],
+      "id": "repeat-p01-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 3,
+      "start": 109.6,
+      "end": 113.28,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 109.6,
+          "end": 113.28
+        }
+      ],
+      "id": "repeat-p02-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 4,
+      "start": 139.11,
+      "end": 142.76,
+      "text": "ка ка.",
+      "words": [
+        {
+          "text": "ка",
+          "start": 139.11,
+          "end": 140.434
+        },
+        {
+          "text": "ка.",
+          "start": 141.115,
+          "end": 142.76
+        }
+      ],
+      "id": "repeat-p02-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 5,
+      "start": 113.28,
+      "end": 116.8,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 113.28,
+          "end": 116.8
+        }
+      ],
+      "id": "repeat-p03-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 6,
+      "start": 142.76,
+      "end": 146.32,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 142.76,
+          "end": 146.32
+        }
+      ],
+      "id": "repeat-p03-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 7,
+      "start": 116.8,
+      "end": 118.17,
+      "text": "оси.",
+      "words": [
+        {
+          "text": "оси.",
+          "start": 116.8,
+          "end": 118.17
+        }
+      ],
+      "id": "repeat-p04-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 8,
+      "start": 146.32,
+      "end": 147.8,
+      "text": "Ма.",
+      "words": [
+        {
+          "text": "Ма.",
+          "start": 146.32,
+          "end": 147.8
+        }
+      ],
+      "id": "repeat-p04-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 9,
+      "start": 118.17,
+      "end": 120.66,
+      "text": "Т.",
+      "words": [
+        {
+          "text": "Т.",
+          "start": 118.17,
+          "end": 120.66
+        }
+      ],
+      "id": "repeat-p05-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 10,
+      "start": 147.8,
+      "end": 150.16,
+      "text": "Сш.",
+      "words": [
+        {
+          "text": "Сш.",
+          "start": 147.8,
+          "end": 150.16
+        }
+      ],
+      "id": "repeat-p05-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 11,
+      "start": 120.66,
+      "end": 124.36,
+      "text": "На.",
+      "words": [
+        {
+          "text": "На.",
+          "start": 120.66,
+          "end": 124.36
+        }
+      ],
+      "id": "repeat-p06-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 12,
+      "start": 150.16,
+      "end": 153.89,
+      "text": "ночь.",
+      "words": [
+        {
+          "text": "ночь.",
+          "start": 150.16,
+          "end": 153.89
+        }
+      ],
+      "id": "repeat-p06-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 13,
+      "start": 124.36,
+      "end": 128.05,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 124.36,
+          "end": 128.05
+        }
+      ],
+      "id": "repeat-p07-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 14,
+      "start": 153.89,
+      "end": 157.47,
+      "text": "я, иш на меня.",
+      "words": [
+        {
+          "text": "я,",
+          "start": 153.89,
+          "end": 155.76
+        },
+        {
+          "text": "иш",
+          "start": 155.839,
+          "end": 156.396
+        },
+        {
+          "text": "на",
+          "start": 156.555,
+          "end": 156.595
+        },
+        {
+          "text": "меня.",
+          "start": 156.714,
+          "end": 157.47
+        }
+      ],
+      "id": "repeat-p07-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 15,
+      "start": 128.05,
+      "end": 132.99,
+      "text": "же престаляша.",
+      "words": [
+        {
+          "text": "же",
+          "start": 128.05,
+          "end": 128.648
+        },
+        {
+          "text": "престаляша.",
+          "start": 128.847,
+          "end": 132.99
+        }
+      ],
+      "id": "repeat-p08-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 16,
+      "start": 157.47,
+      "end": 162.58,
+      "text": "Сра.",
+      "words": [
+        {
+          "text": "Сра.",
+          "start": 157.47,
+          "end": 162.58
+        }
+      ],
+      "id": "repeat-p08-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 17,
+      "start": 103.4,
+      "end": 118.17,
+      "text": "ме тебяезмя руго наестиыжелюбимши.",
+      "words": [
+        {
+          "text": "ме",
+          "start": 103.4,
+          "end": 107.042
+        },
+        {
+          "text": "тебяезмя",
+          "start": 107.163,
+          "end": 109.044
+        },
+        {
+          "text": "руго",
+          "start": 109.684,
+          "end": 110.044
+        },
+        {
+          "text": "наестиыжелюбимши.",
+          "start": 110.925,
+          "end": 118.17
+        }
+      ],
+      "id": "repeat-c01-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 18,
+      "start": 132.99,
+      "end": 147.8,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 132.99,
+          "end": 147.8
+        }
+      ],
+      "id": "repeat-c01-b",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 19,
+      "start": 118.17,
+      "end": 132.99,
+      "text": "з мна, На наша естоле ш.",
+      "words": [
+        {
+          "text": "з",
+          "start": 118.17,
+          "end": 126.878
+        },
+        {
+          "text": "мна,",
+          "start": 126.998,
+          "end": 128.037
+        },
+        {
+          "text": "На",
+          "start": 128.117,
+          "end": 128.157
+        },
+        {
+          "text": "наша",
+          "start": 128.396,
+          "end": 128.636
+        },
+        {
+          "text": "естоле",
+          "start": 128.836,
+          "end": 129.395
+        },
+        {
+          "text": "ш.",
+          "start": 129.874,
+          "end": 132.99
+        }
+      ],
+      "id": "repeat-c02-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 20,
+      "start": 147.8,
+      "end": 162.58,
+      "text": "Бшаящаячь, юбвимая, чная.",
+      "words": [
+        {
+          "text": "Бшаящаячь,",
+          "start": 147.8,
+          "end": 153.832
+        },
+        {
+          "text": "юбвимая,",
+          "start": 153.952,
+          "end": 155.669
+        },
+        {
+          "text": "чная.",
+          "start": 155.789,
+          "end": 162.58
+        }
+      ],
+      "id": "repeat-c02-b",
+      "kind": "repeated_context"
+    }
+  ]
+}

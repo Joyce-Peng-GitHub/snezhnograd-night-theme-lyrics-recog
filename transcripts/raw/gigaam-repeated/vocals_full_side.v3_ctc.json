@@ -1,0 +1,313 @@
+{
+  "audio": "work/channel_candidates/vocals_full_side.flac",
+  "model": "v3_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/repeated-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 103.4,
+      "end": 109.6,
+      "text": "н",
+      "words": [
+        {
+          "text": "н",
+          "start": 109.08,
+          "end": 109.12
+        }
+      ],
+      "id": "repeat-p01-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 2,
+      "start": 132.99,
+      "end": 139.11,
+      "text": "наша плонета наша плонеа лбо",
+      "words": [
+        {
+          "text": "наша",
+          "start": 133.35,
+          "end": 133.63
+        },
+        {
+          "text": "плонета",
+          "start": 133.79,
+          "end": 134.51
+        },
+        {
+          "text": "наша",
+          "start": 135.15,
+          "end": 135.43
+        },
+        {
+          "text": "плонеа",
+          "start": 135.59,
+          "end": 136.35
+        },
+        {
+          "text": "лбо",
+          "start": 136.59,
+          "end": 136.87
+        }
+      ],
+      "id": "repeat-p01-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 3,
+      "start": 109.6,
+      "end": 113.28,
+      "text": "удапонеили",
+      "words": [
+        {
+          "text": "удапонеили",
+          "start": 110.8,
+          "end": 112.8
+        }
+      ],
+      "id": "repeat-p02-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 4,
+      "start": 139.11,
+      "end": 142.76,
+      "text": "",
+      "words": [],
+      "id": "repeat-p02-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 5,
+      "start": 113.28,
+      "end": 116.8,
+      "text": "ионио",
+      "words": [
+        {
+          "text": "ионио",
+          "start": 115.16,
+          "end": 116.48
+        }
+      ],
+      "id": "repeat-p03-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 6,
+      "start": 142.76,
+      "end": 146.32,
+      "text": "ямеаю",
+      "words": [
+        {
+          "text": "ямеаю",
+          "start": 144.8,
+          "end": 145.56
+        }
+      ],
+      "id": "repeat-p03-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 7,
+      "start": 116.8,
+      "end": 118.17,
+      "text": "луши",
+      "words": [
+        {
+          "text": "луши",
+          "start": 117.082,
+          "end": 117.445
+        }
+      ],
+      "id": "repeat-p04-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 8,
+      "start": 146.32,
+      "end": 147.8,
+      "text": "ешаи",
+      "words": [
+        {
+          "text": "ешаи",
+          "start": 146.56,
+          "end": 147.44
+        }
+      ],
+      "id": "repeat-p04-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 9,
+      "start": 118.17,
+      "end": 120.66,
+      "text": "",
+      "words": [],
+      "id": "repeat-p05-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 10,
+      "start": 147.8,
+      "end": 150.16,
+      "text": "",
+      "words": [],
+      "id": "repeat-p05-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 11,
+      "start": 120.66,
+      "end": 124.36,
+      "text": "ни",
+      "words": [
+        {
+          "text": "ни",
+          "start": 123.405,
+          "end": 123.485
+        }
+      ],
+      "id": "repeat-p06-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 12,
+      "start": 150.16,
+      "end": 153.89,
+      "text": "",
+      "words": [],
+      "id": "repeat-p06-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 13,
+      "start": 124.36,
+      "end": 128.05,
+      "text": "истина",
+      "words": [
+        {
+          "text": "истина",
+          "start": 126.686,
+          "end": 127.569
+        }
+      ],
+      "id": "repeat-p07-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 14,
+      "start": 153.89,
+      "end": 157.47,
+      "text": "",
+      "words": [],
+      "id": "repeat-p07-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 15,
+      "start": 128.05,
+      "end": 132.99,
+      "text": "уши",
+      "words": [
+        {
+          "text": "уши",
+          "start": 131.795,
+          "end": 132.193
+        }
+      ],
+      "id": "repeat-p08-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 16,
+      "start": 157.47,
+      "end": 162.58,
+      "text": "и",
+      "words": [
+        {
+          "text": "и",
+          "start": 160.384,
+          "end": 160.424
+        }
+      ],
+      "id": "repeat-p08-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 17,
+      "start": 103.4,
+      "end": 118.17,
+      "text": "ино души",
+      "words": [
+        {
+          "text": "ино",
+          "start": 116.049,
+          "end": 116.569
+        },
+        {
+          "text": "души",
+          "start": 117.049,
+          "end": 117.45
+        }
+      ],
+      "id": "repeat-c01-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 18,
+      "start": 132.99,
+      "end": 147.8,
+      "text": "ша понаша обеая еаюиш",
+      "words": [
+        {
+          "text": "ша",
+          "start": 133.55,
+          "end": 133.63
+        },
+        {
+          "text": "понаша",
+          "start": 133.791,
+          "end": 135.392
+        },
+        {
+          "text": "обеая",
+          "start": 135.672,
+          "end": 144.838
+        },
+        {
+          "text": "еаюиш",
+          "start": 145.118,
+          "end": 146.959
+        }
+      ],
+      "id": "repeat-c01-b",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 19,
+      "start": 118.17,
+      "end": 132.99,
+      "text": "тиокруши",
+      "words": [
+        {
+          "text": "тиокруши",
+          "start": 127.078,
+          "end": 132.191
+        }
+      ],
+      "id": "repeat-c02-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 20,
+      "start": 147.8,
+      "end": 162.58,
+      "text": "",
+      "words": [],
+      "id": "repeat-c02-b",
+      "kind": "repeated_context"
+    }
+  ]
+}

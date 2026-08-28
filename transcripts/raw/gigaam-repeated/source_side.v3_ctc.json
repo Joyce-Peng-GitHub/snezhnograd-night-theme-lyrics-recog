@@ -1,0 +1,387 @@
+{
+  "audio": "work/channel_candidates/source_side.flac",
+  "model": "v3_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/repeated-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 103.4,
+      "end": 109.6,
+      "text": "на ноеино",
+      "words": [
+        {
+          "text": "на",
+          "start": 107.2,
+          "end": 107.28
+        },
+        {
+          "text": "ноеино",
+          "start": 107.76,
+          "end": 109.12
+        }
+      ],
+      "id": "repeat-p01-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 2,
+      "start": 132.99,
+      "end": 139.11,
+      "text": "оен",
+      "words": [
+        {
+          "text": "оен",
+          "start": 136.83,
+          "end": 138.67
+        }
+      ],
+      "id": "repeat-p01-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 3,
+      "start": 109.6,
+      "end": 113.28,
+      "text": "си",
+      "words": [
+        {
+          "text": "си",
+          "start": 112.32,
+          "end": 112.4
+        }
+      ],
+      "id": "repeat-p02-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 4,
+      "start": 139.11,
+      "end": 142.76,
+      "text": "на ена",
+      "words": [
+        {
+          "text": "на",
+          "start": 140.394,
+          "end": 140.474
+        },
+        {
+          "text": "ена",
+          "start": 141.356,
+          "end": 142.439
+        }
+      ],
+      "id": "repeat-p02-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 5,
+      "start": 113.28,
+      "end": 116.8,
+      "text": "ыминя",
+      "words": [
+        {
+          "text": "ыминя",
+          "start": 113.72,
+          "end": 116.48
+        }
+      ],
+      "id": "repeat-p03-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 6,
+      "start": 142.76,
+      "end": 146.32,
+      "text": "",
+      "words": [],
+      "id": "repeat-p03-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 7,
+      "start": 116.8,
+      "end": 118.17,
+      "text": "оши",
+      "words": [
+        {
+          "text": "оши",
+          "start": 117.042,
+          "end": 117.566
+        }
+      ],
+      "id": "repeat-p04-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 8,
+      "start": 146.32,
+      "end": 147.8,
+      "text": "мызабы",
+      "words": [
+        {
+          "text": "мызабы",
+          "start": 146.48,
+          "end": 147.44
+        }
+      ],
+      "id": "repeat-p04-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 9,
+      "start": 118.17,
+      "end": 120.66,
+      "text": "аа",
+      "words": [
+        {
+          "text": "аа",
+          "start": 118.813,
+          "end": 119.335
+        }
+      ],
+      "id": "repeat-p05-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 10,
+      "start": 147.8,
+      "end": 150.16,
+      "text": "уши",
+      "words": [
+        {
+          "text": "уши",
+          "start": 148.56,
+          "end": 148.84
+        }
+      ],
+      "id": "repeat-p05-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 11,
+      "start": 120.66,
+      "end": 124.36,
+      "text": "н",
+      "words": [
+        {
+          "text": "н",
+          "start": 123.763,
+          "end": 123.803
+        }
+      ],
+      "id": "repeat-p06-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 12,
+      "start": 150.16,
+      "end": 153.89,
+      "text": "",
+      "words": [],
+      "id": "repeat-p06-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 13,
+      "start": 124.36,
+      "end": 128.05,
+      "text": "ня люименя",
+      "words": [
+        {
+          "text": "ня",
+          "start": 125.684,
+          "end": 125.764
+        },
+        {
+          "text": "люименя",
+          "start": 126.285,
+          "end": 127.569
+        }
+      ],
+      "id": "repeat-p07-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 14,
+      "start": 153.89,
+      "end": 157.47,
+      "text": "енаее",
+      "words": [
+        {
+          "text": "енаее",
+          "start": 156.118,
+          "end": 157.112
+        }
+      ],
+      "id": "repeat-p07-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 15,
+      "start": 128.05,
+      "end": 132.99,
+      "text": "нашеелененуа души",
+      "words": [
+        {
+          "text": "нашеелененуа",
+          "start": 128.448,
+          "end": 131.277
+        },
+        {
+          "text": "души",
+          "start": 131.755,
+          "end": 132.233
+        }
+      ],
+      "id": "repeat-p08-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 16,
+      "start": 157.47,
+      "end": 162.58,
+      "text": "еис",
+      "words": [
+        {
+          "text": "еис",
+          "start": 159.825,
+          "end": 161.742
+        }
+      ],
+      "id": "repeat-p08-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 17,
+      "start": 103.4,
+      "end": 118.17,
+      "text": "н надеждина аресиие миня рои",
+      "words": [
+        {
+          "text": "н",
+          "start": 107.203,
+          "end": 107.243
+        },
+        {
+          "text": "надеждина",
+          "start": 107.763,
+          "end": 109.124
+        },
+        {
+          "text": "аресиие",
+          "start": 110.965,
+          "end": 114.768
+        },
+        {
+          "text": "миня",
+          "start": 116.049,
+          "end": 116.489
+        },
+        {
+          "text": "рои",
+          "start": 117.049,
+          "end": 117.53
+        }
+      ],
+      "id": "repeat-c01-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 18,
+      "start": 132.99,
+      "end": 147.8,
+      "text": "о меняо",
+      "words": [
+        {
+          "text": "о",
+          "start": 135.672,
+          "end": 135.712
+        },
+        {
+          "text": "меняо",
+          "start": 138.394,
+          "end": 142.877
+        }
+      ],
+      "id": "repeat-c01-b",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 19,
+      "start": 118.17,
+      "end": 132.99,
+      "text": "инна имена на наше зелее душа друши",
+      "words": [
+        {
+          "text": "инна",
+          "start": 123.443,
+          "end": 125.8
+        },
+        {
+          "text": "имена",
+          "start": 126.639,
+          "end": 127.557
+        },
+        {
+          "text": "на",
+          "start": 128.157,
+          "end": 128.236
+        },
+        {
+          "text": "наше",
+          "start": 128.396,
+          "end": 128.716
+        },
+        {
+          "text": "зелее",
+          "start": 129.155,
+          "end": 130.433
+        },
+        {
+          "text": "душа",
+          "start": 130.833,
+          "end": 131.272
+        },
+        {
+          "text": "друши",
+          "start": 131.712,
+          "end": 132.231
+        }
+      ],
+      "id": "repeat-c02-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 20,
+      "start": 147.8,
+      "end": 162.58,
+      "text": "вою душу яена нееоуаеи",
+      "words": [
+        {
+          "text": "вою",
+          "start": 152.993,
+          "end": 153.233
+        },
+        {
+          "text": "душу",
+          "start": 153.432,
+          "end": 153.832
+        },
+        {
+          "text": "яена",
+          "start": 155.19,
+          "end": 156.668
+        },
+        {
+          "text": "нееоуаеи",
+          "start": 156.868,
+          "end": 160.383
+        }
+      ],
+      "id": "repeat-c02-b",
+      "kind": "repeated_context"
+    }
+  ]
+}

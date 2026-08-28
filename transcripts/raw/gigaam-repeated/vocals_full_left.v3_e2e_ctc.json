@@ -1,0 +1,594 @@
+{
+  "audio": "work/channel_candidates/vocals_full_left.flac",
+  "model": "v3_e2e_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/repeated-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 103.4,
+      "end": 109.6,
+      "text": "иламекавория.",
+      "words": [
+        {
+          "text": "иламекавория.",
+          "start": 106.0,
+          "end": 109.6
+        }
+      ],
+      "id": "repeat-p01-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 2,
+      "start": 132.99,
+      "end": 139.11,
+      "text": "И наша победы, наша победа новь,  вечный руж.",
+      "words": [
+        {
+          "text": "И",
+          "start": 132.99,
+          "end": 133.03
+        },
+        {
+          "text": "наша",
+          "start": 133.35,
+          "end": 133.59
+        },
+        {
+          "text": "победы,",
+          "start": 133.79,
+          "end": 134.79
+        },
+        {
+          "text": "наша",
+          "start": 135.11,
+          "end": 135.39
+        },
+        {
+          "text": "победа",
+          "start": 135.63,
+          "end": 136.19
+        },
+        {
+          "text": "новь,",
+          "start": 136.55,
+          "end": 137.15
+        },
+        {
+          "text": "вечный",
+          "start": 137.67,
+          "end": 138.31
+        },
+        {
+          "text": "руж.",
+          "start": 138.43,
+          "end": 139.11
+        }
+      ],
+      "id": "repeat-p01-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 3,
+      "start": 109.6,
+      "end": 113.28,
+      "text": "помешили.",
+      "words": [
+        {
+          "text": "помешили.",
+          "start": 111.36,
+          "end": 113.28
+        }
+      ],
+      "id": "repeat-p02-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 4,
+      "start": 139.11,
+      "end": 142.76,
+      "text": "ты.",
+      "words": [
+        {
+          "text": "ты.",
+          "start": 139.11,
+          "end": 142.76
+        }
+      ],
+      "id": "repeat-p02-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 5,
+      "start": 113.28,
+      "end": 116.8,
+      "text": "Сгониго.",
+      "words": [
+        {
+          "text": "Сгониго.",
+          "start": 113.28,
+          "end": 116.8
+        }
+      ],
+      "id": "repeat-p03-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 6,
+      "start": 142.76,
+      "end": 146.32,
+      "text": "де юви нича недами.",
+      "words": [
+        {
+          "text": "де",
+          "start": 142.76,
+          "end": 143.28
+        },
+        {
+          "text": "юви",
+          "start": 143.8,
+          "end": 144.16
+        },
+        {
+          "text": "нича",
+          "start": 144.72,
+          "end": 145.28
+        },
+        {
+          "text": "недами.",
+          "start": 145.52,
+          "end": 146.32
+        }
+      ],
+      "id": "repeat-p03-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 7,
+      "start": 116.8,
+      "end": 118.17,
+      "text": "Лучши.",
+      "words": [
+        {
+          "text": "Лучши.",
+          "start": 116.8,
+          "end": 118.17
+        }
+      ],
+      "id": "repeat-p04-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 8,
+      "start": 146.32,
+      "end": 147.8,
+      "text": "Мушари.",
+      "words": [
+        {
+          "text": "Мушари.",
+          "start": 146.32,
+          "end": 147.8
+        }
+      ],
+      "id": "repeat-p04-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 9,
+      "start": 118.17,
+      "end": 120.66,
+      "text": "И его.",
+      "words": [
+        {
+          "text": "И",
+          "start": 118.17,
+          "end": 118.21
+        },
+        {
+          "text": "его.",
+          "start": 119.817,
+          "end": 120.66
+        }
+      ],
+      "id": "repeat-p05-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 10,
+      "start": 147.8,
+      "end": 150.16,
+      "text": "Ишае.",
+      "words": [
+        {
+          "text": "Ишае.",
+          "start": 147.8,
+          "end": 150.16
+        }
+      ],
+      "id": "repeat-p05-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 11,
+      "start": 120.66,
+      "end": 124.36,
+      "text": "Потиуть.",
+      "words": [
+        {
+          "text": "Потиуть.",
+          "start": 120.66,
+          "end": 124.36
+        }
+      ],
+      "id": "repeat-p06-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 12,
+      "start": 150.16,
+      "end": 153.89,
+      "text": "шку.",
+      "words": [
+        {
+          "text": "шку.",
+          "start": 153.048,
+          "end": 153.89
+        }
+      ],
+      "id": "repeat-p06-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 13,
+      "start": 124.36,
+      "end": 128.05,
+      "text": "ми мо истина.",
+      "words": [
+        {
+          "text": "ми",
+          "start": 124.36,
+          "end": 125.483
+        },
+        {
+          "text": "мо",
+          "start": 126.165,
+          "end": 126.205
+        },
+        {
+          "text": "истина.",
+          "start": 126.646,
+          "end": 128.05
+        }
+      ],
+      "id": "repeat-p07-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 14,
+      "start": 153.89,
+      "end": 157.47,
+      "text": "енуего лешноя.",
+      "words": [
+        {
+          "text": "енуего",
+          "start": 153.89,
+          "end": 155.242
+        },
+        {
+          "text": "лешноя.",
+          "start": 155.839,
+          "end": 157.47
+        }
+      ],
+      "id": "repeat-p07-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 15,
+      "start": 128.05,
+      "end": 132.99,
+      "text": "Вт, пожалуй, скорей, рустину согруши.",
+      "words": [
+        {
+          "text": "Вт,",
+          "start": 128.05,
+          "end": 128.409
+        },
+        {
+          "text": "пожалуй,",
+          "start": 128.448,
+          "end": 129.006
+        },
+        {
+          "text": "скорей,",
+          "start": 129.086,
+          "end": 129.723
+        },
+        {
+          "text": "рустину",
+          "start": 129.803,
+          "end": 130.759
+        },
+        {
+          "text": "согруши.",
+          "start": 131.157,
+          "end": 132.99
+        }
+      ],
+      "id": "repeat-p08-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 16,
+      "start": 157.47,
+      "end": 162.58,
+      "text": "Сены.",
+      "words": [
+        {
+          "text": "Сены.",
+          "start": 157.47,
+          "end": 162.58
+        }
+      ],
+      "id": "repeat-p08-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 17,
+      "start": 103.4,
+      "end": 118.17,
+      "text": "ме ришия рукастуля подм сили. Сариштонимуни дожь души.",
+      "words": [
+        {
+          "text": "ме",
+          "start": 103.4,
+          "end": 107.042
+        },
+        {
+          "text": "ришия",
+          "start": 107.563,
+          "end": 109.084
+        },
+        {
+          "text": "рукастуля",
+          "start": 109.644,
+          "end": 110.925
+        },
+        {
+          "text": "подм",
+          "start": 111.365,
+          "end": 111.846
+        },
+        {
+          "text": "сили.",
+          "start": 112.206,
+          "end": 113.247
+        },
+        {
+          "text": "Сариштонимуни",
+          "start": 113.327,
+          "end": 116.049
+        },
+        {
+          "text": "дожь",
+          "start": 116.449,
+          "end": 116.809
+        },
+        {
+          "text": "души.",
+          "start": 116.849,
+          "end": 118.17
+        }
+      ],
+      "id": "repeat-c01-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 18,
+      "start": 132.99,
+      "end": 147.8,
+      "text": "И наша победы, оша победы   вечный рус, ре  ангелов дестве Янися ненавидиши.",
+      "words": [
+        {
+          "text": "И",
+          "start": 132.99,
+          "end": 133.03
+        },
+        {
+          "text": "наша",
+          "start": 133.39,
+          "end": 133.59
+        },
+        {
+          "text": "победы,",
+          "start": 133.791,
+          "end": 134.791
+        },
+        {
+          "text": "оша",
+          "start": 134.871,
+          "end": 135.352
+        },
+        {
+          "text": "победы",
+          "start": 135.632,
+          "end": 136.232
+        },
+        {
+          "text": "вечный",
+          "start": 137.673,
+          "end": 138.354
+        },
+        {
+          "text": "рус,",
+          "start": 138.434,
+          "end": 139.034
+        },
+        {
+          "text": "ре",
+          "start": 139.154,
+          "end": 139.554
+        },
+        {
+          "text": "ангелов",
+          "start": 141.836,
+          "end": 142.476
+        },
+        {
+          "text": "дестве",
+          "start": 142.757,
+          "end": 143.717
+        },
+        {
+          "text": "Янися",
+          "start": 144.718,
+          "end": 145.278
+        },
+        {
+          "text": "ненавидиши.",
+          "start": 145.558,
+          "end": 147.8
+        }
+      ],
+      "id": "repeat-c01-b",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 19,
+      "start": 118.17,
+      "end": 132.99,
+      "text": "коц его ой до что ини путь. Пусть ведут намену но истина, от пошали скорей устину согруши.",
+      "words": [
+        {
+          "text": "коц",
+          "start": 118.969,
+          "end": 119.249
+        },
+        {
+          "text": "его",
+          "start": 119.688,
+          "end": 120.127
+        },
+        {
+          "text": "ой",
+          "start": 120.727,
+          "end": 120.926
+        },
+        {
+          "text": "до",
+          "start": 121.006,
+          "end": 121.046
+        },
+        {
+          "text": "что",
+          "start": 122.444,
+          "end": 122.484
+        },
+        {
+          "text": "ини",
+          "start": 122.804,
+          "end": 123.363
+        },
+        {
+          "text": "путь.",
+          "start": 123.683,
+          "end": 124.322
+        },
+        {
+          "text": "Пусть",
+          "start": 124.402,
+          "end": 124.641
+        },
+        {
+          "text": "ведут",
+          "start": 124.681,
+          "end": 125.081
+        },
+        {
+          "text": "намену",
+          "start": 125.201,
+          "end": 125.68
+        },
+        {
+          "text": "но",
+          "start": 125.999,
+          "end": 126.199
+        },
+        {
+          "text": "истина,",
+          "start": 126.599,
+          "end": 128.037
+        },
+        {
+          "text": "от",
+          "start": 128.117,
+          "end": 128.316
+        },
+        {
+          "text": "пошали",
+          "start": 128.396,
+          "end": 128.915
+        },
+        {
+          "text": "скорей",
+          "start": 129.075,
+          "end": 129.595
+        },
+        {
+          "text": "устину",
+          "start": 129.794,
+          "end": 130.713
+        },
+        {
+          "text": "согруши.",
+          "start": 131.192,
+          "end": 132.99
+        }
+      ],
+      "id": "repeat-c02-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 20,
+      "start": 147.8,
+      "end": 162.58,
+      "text": "шеруш, спем его ера и скиесреены.",
+      "words": [
+        {
+          "text": "шеруш,",
+          "start": 152.074,
+          "end": 153.832
+        },
+        {
+          "text": "спем",
+          "start": 153.952,
+          "end": 154.751
+        },
+        {
+          "text": "его",
+          "start": 154.95,
+          "end": 155.23
+        },
+        {
+          "text": "ера",
+          "start": 155.829,
+          "end": 156.628
+        },
+        {
+          "text": "и",
+          "start": 156.788,
+          "end": 156.828
+        },
+        {
+          "text": "скиесреены.",
+          "start": 157.467,
+          "end": 162.58
+        }
+      ],
+      "id": "repeat-c02-b",
+      "kind": "repeated_context"
+    }
+  ]
+}

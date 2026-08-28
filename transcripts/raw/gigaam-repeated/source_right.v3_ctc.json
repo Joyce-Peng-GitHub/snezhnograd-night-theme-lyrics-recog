@@ -1,0 +1,403 @@
+{
+  "audio": "work/channel_candidates/source_right.flac",
+  "model": "v3_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/repeated-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 103.4,
+      "end": 109.6,
+      "text": "онино",
+      "words": [
+        {
+          "text": "онино",
+          "start": 107.8,
+          "end": 109.16
+        }
+      ],
+      "id": "repeat-p01-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 2,
+      "start": 132.99,
+      "end": 139.11,
+      "text": "е меня",
+      "words": [
+        {
+          "text": "е",
+          "start": 137.71,
+          "end": 137.75
+        },
+        {
+          "text": "меня",
+          "start": 138.27,
+          "end": 138.63
+        }
+      ],
+      "id": "repeat-p01-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 3,
+      "start": 109.6,
+      "end": 113.28,
+      "text": "аеси",
+      "words": [
+        {
+          "text": "аеси",
+          "start": 110.92,
+          "end": 112.44
+        }
+      ],
+      "id": "repeat-p02-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 4,
+      "start": 139.11,
+      "end": 142.76,
+      "text": "енана",
+      "words": [
+        {
+          "text": "енана",
+          "start": 139.551,
+          "end": 142.359
+        }
+      ],
+      "id": "repeat-p02-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 5,
+      "start": 113.28,
+      "end": 116.8,
+      "text": "уи",
+      "words": [
+        {
+          "text": "уи",
+          "start": 115.56,
+          "end": 116.08
+        }
+      ],
+      "id": "repeat-p03-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 6,
+      "start": 142.76,
+      "end": 146.32,
+      "text": "о",
+      "words": [
+        {
+          "text": "о",
+          "start": 142.96,
+          "end": 143.0
+        }
+      ],
+      "id": "repeat-p03-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 7,
+      "start": 116.8,
+      "end": 118.17,
+      "text": "души",
+      "words": [
+        {
+          "text": "души",
+          "start": 117.001,
+          "end": 117.485
+        }
+      ],
+      "id": "repeat-p04-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 8,
+      "start": 146.32,
+      "end": 147.8,
+      "text": "ыи",
+      "words": [
+        {
+          "text": "ыи",
+          "start": 146.52,
+          "end": 147.48
+        }
+      ],
+      "id": "repeat-p04-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 9,
+      "start": 118.17,
+      "end": 120.66,
+      "text": "",
+      "words": [],
+      "id": "repeat-p05-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 10,
+      "start": 147.8,
+      "end": 150.16,
+      "text": "о души",
+      "words": [
+        {
+          "text": "о",
+          "start": 148.32,
+          "end": 148.36
+        },
+        {
+          "text": "души",
+          "start": 148.56,
+          "end": 148.88
+        }
+      ],
+      "id": "repeat-p05-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 11,
+      "start": 120.66,
+      "end": 124.36,
+      "text": "иня",
+      "words": [
+        {
+          "text": "иня",
+          "start": 123.445,
+          "end": 123.843
+        }
+      ],
+      "id": "repeat-p06-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 12,
+      "start": 150.16,
+      "end": 153.89,
+      "text": "я оюь",
+      "words": [
+        {
+          "text": "я",
+          "start": 152.687,
+          "end": 152.727
+        },
+        {
+          "text": "оюь",
+          "start": 153.008,
+          "end": 153.689
+        }
+      ],
+      "id": "repeat-p06-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 13,
+      "start": 124.36,
+      "end": 128.05,
+      "text": "аиина",
+      "words": [
+        {
+          "text": "аиина",
+          "start": 125.724,
+          "end": 127.569
+        }
+      ],
+      "id": "repeat-p07-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 14,
+      "start": 153.89,
+      "end": 157.47,
+      "text": "оя любеая",
+      "words": [
+        {
+          "text": "оя",
+          "start": 154.765,
+          "end": 155.242
+        },
+        {
+          "text": "любеая",
+          "start": 155.72,
+          "end": 157.072
+        }
+      ],
+      "id": "repeat-p07-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 15,
+      "start": 128.05,
+      "end": 132.99,
+      "text": "а бесколетно иу сокруши",
+      "words": [
+        {
+          "text": "а",
+          "start": 128.448,
+          "end": 128.488
+        },
+        {
+          "text": "бесколетно",
+          "start": 128.926,
+          "end": 129.883
+        },
+        {
+          "text": "иу",
+          "start": 130.4,
+          "end": 130.839
+        },
+        {
+          "text": "сокруши",
+          "start": 131.237,
+          "end": 132.193
+        }
+      ],
+      "id": "repeat-p08-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 16,
+      "start": 157.47,
+      "end": 162.58,
+      "text": "иь",
+      "words": [
+        {
+          "text": "иь",
+          "start": 160.344,
+          "end": 162.46
+        }
+      ],
+      "id": "repeat-p08-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 17,
+      "start": 103.4,
+      "end": 118.17,
+      "text": "веснидома аесни ыуио в души",
+      "words": [
+        {
+          "text": "веснидома",
+          "start": 108.163,
+          "end": 111.005
+        },
+        {
+          "text": "аесни",
+          "start": 111.445,
+          "end": 112.366
+        },
+        {
+          "text": "ыуио",
+          "start": 115.128,
+          "end": 116.569
+        },
+        {
+          "text": "в",
+          "start": 116.889,
+          "end": 116.929
+        },
+        {
+          "text": "души",
+          "start": 117.049,
+          "end": 117.49
+        }
+      ],
+      "id": "repeat-c01-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 18,
+      "start": 132.99,
+      "end": 147.8,
+      "text": "а будеменя ореынаа мудеыяиеи",
+      "words": [
+        {
+          "text": "а",
+          "start": 136.793,
+          "end": 136.833
+        },
+        {
+          "text": "будеменя",
+          "start": 137.233,
+          "end": 138.634
+        },
+        {
+          "text": "ореынаа",
+          "start": 139.114,
+          "end": 142.396
+        },
+        {
+          "text": "мудеыяиеи",
+          "start": 142.757,
+          "end": 147.44
+        }
+      ],
+      "id": "repeat-c01-b",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 19,
+      "start": 118.17,
+      "end": 132.99,
+      "text": "нио ноыно наиина  наша бесколетнои сокруши",
+      "words": [
+        {
+          "text": "нио",
+          "start": 123.363,
+          "end": 123.882
+        },
+        {
+          "text": "ноыно",
+          "start": 125.24,
+          "end": 125.76
+        },
+        {
+          "text": "наиина",
+          "start": 126.159,
+          "end": 127.557
+        },
+        {
+          "text": "наша",
+          "start": 128.396,
+          "end": 128.716
+        },
+        {
+          "text": "бесколетнои",
+          "start": 128.915,
+          "end": 130.433
+        },
+        {
+          "text": "сокруши",
+          "start": 131.232,
+          "end": 132.191
+        }
+      ],
+      "id": "repeat-c02-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 20,
+      "start": 147.8,
+      "end": 162.58,
+      "text": "уоуш еоненоебиошь",
+      "words": [
+        {
+          "text": "уоуш",
+          "start": 148.559,
+          "end": 153.712
+        },
+        {
+          "text": "еоненоебиошь",
+          "start": 154.351,
+          "end": 162.46
+        }
+      ],
+      "id": "repeat-c02-b",
+      "kind": "repeated_context"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "audio": "work/channel_candidates/source_left.flac",
+  "model": "v3_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/repeated-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 103.4,
+      "end": 109.6,
+      "text": "менянаезтеня",
+      "words": [
+        {
+          "text": "менянаезтеня",
+          "start": 107.0,
+          "end": 109.12
+        }
+      ],
+      "id": "repeat-p01-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 2,
+      "start": 132.99,
+      "end": 139.11,
+      "text": "авеоо",
+      "words": [
+        {
+          "text": "авеоо",
+          "start": 135.63,
+          "end": 138.67
+        }
+      ],
+      "id": "repeat-p01-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 3,
+      "start": 109.6,
+      "end": 113.28,
+      "text": "ауси",
+      "words": [
+        {
+          "text": "ауси",
+          "start": 110.96,
+          "end": 112.44
+        }
+      ],
+      "id": "repeat-p02-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 4,
+      "start": 139.11,
+      "end": 142.76,
+      "text": "аа",
+      "words": [
+        {
+          "text": "аа",
+          "start": 140.474,
+          "end": 142.439
+        }
+      ],
+      "id": "repeat-p02-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 5,
+      "start": 113.28,
+      "end": 116.8,
+      "text": "ыумина",
+      "words": [
+        {
+          "text": "ыумина",
+          "start": 115.12,
+          "end": 116.52
+        }
+      ],
+      "id": "repeat-p03-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 6,
+      "start": 142.76,
+      "end": 146.32,
+      "text": "аюо",
+      "words": [
+        {
+          "text": "аюо",
+          "start": 145.36,
+          "end": 145.84
+        }
+      ],
+      "id": "repeat-p03-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 7,
+      "start": 116.8,
+      "end": 118.17,
+      "text": "ои",
+      "words": [
+        {
+          "text": "ои",
+          "start": 117.001,
+          "end": 117.848
+        }
+      ],
+      "id": "repeat-p04-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 8,
+      "start": 146.32,
+      "end": 147.8,
+      "text": "ысои",
+      "words": [
+        {
+          "text": "ысои",
+          "start": 146.56,
+          "end": 147.52
+        }
+      ],
+      "id": "repeat-p04-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 9,
+      "start": 118.17,
+      "end": 120.66,
+      "text": "оо",
+      "words": [
+        {
+          "text": "оо",
+          "start": 119.295,
+          "end": 120.258
+        }
+      ],
+      "id": "repeat-p05-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 10,
+      "start": 147.8,
+      "end": 150.16,
+      "text": "души",
+      "words": [
+        {
+          "text": "души",
+          "start": 148.56,
+          "end": 148.88
+        }
+      ],
+      "id": "repeat-p05-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 11,
+      "start": 120.66,
+      "end": 124.36,
+      "text": "наше еимя",
+      "words": [
+        {
+          "text": "наше",
+          "start": 122.013,
+          "end": 122.411
+        },
+        {
+          "text": "еимя",
+          "start": 122.968,
+          "end": 123.803
+        }
+      ],
+      "id": "repeat-p06-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 12,
+      "start": 150.16,
+      "end": 153.89,
+      "text": "зазао",
+      "words": [
+        {
+          "text": "зазао",
+          "start": 152.406,
+          "end": 153.449
+        }
+      ],
+      "id": "repeat-p06-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 13,
+      "start": 124.36,
+      "end": 128.05,
+      "text": "наиына",
+      "words": [
+        {
+          "text": "наиына",
+          "start": 125.724,
+          "end": 127.609
+        }
+      ],
+      "id": "repeat-p07-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 14,
+      "start": 153.89,
+      "end": 157.47,
+      "text": "иамея",
+      "words": [
+        {
+          "text": "иамея",
+          "start": 156.157,
+          "end": 157.072
+        }
+      ],
+      "id": "repeat-p07-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 15,
+      "start": 128.05,
+      "end": 132.99,
+      "text": "одаже представляюеусоуше",
+      "words": [
+        {
+          "text": "одаже",
+          "start": 128.249,
+          "end": 128.687
+        },
+        {
+          "text": "представляюеусоуше",
+          "start": 128.926,
+          "end": 132.193
+        }
+      ],
+      "id": "repeat-p08-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 16,
+      "start": 157.47,
+      "end": 162.58,
+      "text": "разуеты",
+      "words": [
+        {
+          "text": "разуеты",
+          "start": 158.987,
+          "end": 160.424
+        }
+      ],
+      "id": "repeat-p08-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 17,
+      "start": 103.4,
+      "end": 118.17,
+      "text": "неинааоескиыуминаои",
+      "words": [
+        {
+          "text": "неинааоескиыуминаои",
+          "start": 107.723,
+          "end": 117.49
+        }
+      ],
+      "id": "repeat-c01-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 18,
+      "start": 132.99,
+      "end": 147.8,
+      "text": "наеуза",
+      "words": [
+        {
+          "text": "наеуза",
+          "start": 140.475,
+          "end": 145.398
+        }
+      ],
+      "id": "repeat-c01-b",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 19,
+      "start": 118.17,
+      "end": 132.99,
+      "text": "наанаоиина но даже иеняюеуоуше",
+      "words": [
+        {
+          "text": "наанаоиина",
+          "start": 123.802,
+          "end": 127.557
+        },
+        {
+          "text": "но",
+          "start": 128.157,
+          "end": 128.236
+        },
+        {
+          "text": "даже",
+          "start": 128.396,
+          "end": 128.676
+        },
+        {
+          "text": "иеняюеуоуше",
+          "start": 128.915,
+          "end": 132.191
+        }
+      ],
+      "id": "repeat-c02-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 20,
+      "start": 147.8,
+      "end": 162.58,
+      "text": "аоочь аеваяеная аее",
+      "words": [
+        {
+          "text": "аоочь",
+          "start": 150.636,
+          "end": 153.672
+        },
+        {
+          "text": "аеваяеная",
+          "start": 154.072,
+          "end": 157.107
+        },
+        {
+          "text": "аее",
+          "start": 158.985,
+          "end": 160.423
+        }
+      ],
+      "id": "repeat-c02-b",
+      "kind": "repeated_context"
+    }
+  ]
+}

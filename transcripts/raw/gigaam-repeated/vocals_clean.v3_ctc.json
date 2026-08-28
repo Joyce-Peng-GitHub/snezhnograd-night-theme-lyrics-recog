@@ -1,0 +1,328 @@
+{
+  "audio": "audio/candidates/vocals_clean.flac",
+  "model": "v3_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/repeated-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 103.4,
+      "end": 109.6,
+      "text": "",
+      "words": [],
+      "id": "repeat-p01-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 2,
+      "start": 132.99,
+      "end": 139.11,
+      "text": "наша победанаша победа",
+      "words": [
+        {
+          "text": "наша",
+          "start": 133.31,
+          "end": 133.63
+        },
+        {
+          "text": "победанаша",
+          "start": 133.83,
+          "end": 135.43
+        },
+        {
+          "text": "победа",
+          "start": 135.63,
+          "end": 136.07
+        }
+      ],
+      "id": "repeat-p01-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 3,
+      "start": 109.6,
+      "end": 113.28,
+      "text": "нешили",
+      "words": [
+        {
+          "text": "нешили",
+          "start": 111.84,
+          "end": 112.76
+        }
+      ],
+      "id": "repeat-p02-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 4,
+      "start": 139.11,
+      "end": 142.76,
+      "text": "рекиреи",
+      "words": [
+        {
+          "text": "рекиреи",
+          "start": 139.511,
+          "end": 141.918
+        }
+      ],
+      "id": "repeat-p02-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 5,
+      "start": 113.28,
+      "end": 116.8,
+      "text": "иои",
+      "words": [
+        {
+          "text": "иои",
+          "start": 114.76,
+          "end": 116.04
+        }
+      ],
+      "id": "repeat-p03-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 6,
+      "start": 142.76,
+      "end": 146.32,
+      "text": "оешаиямеане",
+      "words": [
+        {
+          "text": "оешаиямеане",
+          "start": 143.0,
+          "end": 145.68
+        }
+      ],
+      "id": "repeat-p03-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 7,
+      "start": 116.8,
+      "end": 118.17,
+      "text": "луши",
+      "words": [
+        {
+          "text": "луши",
+          "start": 117.082,
+          "end": 117.404
+        }
+      ],
+      "id": "repeat-p04-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 8,
+      "start": 146.32,
+      "end": 147.8,
+      "text": "уши",
+      "words": [
+        {
+          "text": "уши",
+          "start": 146.56,
+          "end": 147.0
+        }
+      ],
+      "id": "repeat-p04-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 9,
+      "start": 118.17,
+      "end": 120.66,
+      "text": "о",
+      "words": [
+        {
+          "text": "о",
+          "start": 119.054,
+          "end": 119.094
+        }
+      ],
+      "id": "repeat-p05-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 10,
+      "start": 147.8,
+      "end": 150.16,
+      "text": "ша",
+      "words": [
+        {
+          "text": "ша",
+          "start": 148.8,
+          "end": 148.88
+        }
+      ],
+      "id": "repeat-p05-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 11,
+      "start": 120.66,
+      "end": 124.36,
+      "text": "уу",
+      "words": [
+        {
+          "text": "уу",
+          "start": 122.052,
+          "end": 123.883
+        }
+      ],
+      "id": "repeat-p06-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 12,
+      "start": 150.16,
+      "end": 153.89,
+      "text": "унеу",
+      "words": [
+        {
+          "text": "унеу",
+          "start": 152.165,
+          "end": 153.489
+        }
+      ],
+      "id": "repeat-p06-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 13,
+      "start": 124.36,
+      "end": 128.05,
+      "text": "оочмаикино",
+      "words": [
+        {
+          "text": "оочмаикино",
+          "start": 125.323,
+          "end": 127.609
+        }
+      ],
+      "id": "repeat-p07-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 14,
+      "start": 153.89,
+      "end": 157.47,
+      "text": "ия",
+      "words": [
+        {
+          "text": "ия",
+          "start": 156.316,
+          "end": 157.072
+        }
+      ],
+      "id": "repeat-p07-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 15,
+      "start": 128.05,
+      "end": 132.99,
+      "text": "пожалускоре путсолуши",
+      "words": [
+        {
+          "text": "пожалускоре",
+          "start": 128.409,
+          "end": 129.405
+        },
+        {
+          "text": "путсолуши",
+          "start": 129.883,
+          "end": 132.193
+        }
+      ],
+      "id": "repeat-p08-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 16,
+      "start": 157.47,
+      "end": 162.58,
+      "text": "енину",
+      "words": [
+        {
+          "text": "енину",
+          "start": 159.865,
+          "end": 161.742
+        }
+      ],
+      "id": "repeat-p08-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 17,
+      "start": 103.4,
+      "end": 118.17,
+      "text": "иоуши",
+      "words": [
+        {
+          "text": "иоуши",
+          "start": 116.009,
+          "end": 117.45
+        }
+      ],
+      "id": "repeat-c01-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 18,
+      "start": 132.99,
+      "end": 147.8,
+      "text": "люине ши",
+      "words": [
+        {
+          "text": "люине",
+          "start": 144.037,
+          "end": 146.199
+        },
+        {
+          "text": "ши",
+          "start": 146.919,
+          "end": 146.999
+        }
+      ],
+      "id": "repeat-c01-b",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 19,
+      "start": 118.17,
+      "end": 132.99,
+      "text": "пустин сокруши",
+      "words": [
+        {
+          "text": "пустин",
+          "start": 124.402,
+          "end": 127.517
+        },
+        {
+          "text": "сокруши",
+          "start": 131.272,
+          "end": 132.191
+        }
+      ],
+      "id": "repeat-c02-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 20,
+      "start": 147.8,
+      "end": 162.58,
+      "text": "увгоюишонушь",
+      "words": [
+        {
+          "text": "увгоюишонушь",
+          "start": 153.472,
+          "end": 162.42
+        }
+      ],
+      "id": "repeat-c02-b",
+      "kind": "repeated_context"
+    }
+  ]
+}

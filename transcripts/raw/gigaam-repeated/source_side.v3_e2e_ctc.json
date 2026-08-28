@@ -1,0 +1,364 @@
+{
+  "audio": "work/channel_candidates/source_side.flac",
+  "model": "v3_e2e_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/repeated-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 103.4,
+      "end": 109.6,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 103.4,
+          "end": 109.6
+        }
+      ],
+      "id": "repeat-p01-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 2,
+      "start": 132.99,
+      "end": 139.11,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 132.99,
+          "end": 139.11
+        }
+      ],
+      "id": "repeat-p01-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 3,
+      "start": 109.6,
+      "end": 113.28,
+      "text": "Россия.",
+      "words": [
+        {
+          "text": "Россия.",
+          "start": 109.6,
+          "end": 113.28
+        }
+      ],
+      "id": "repeat-p02-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 4,
+      "start": 139.11,
+      "end": 142.76,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 139.11,
+          "end": 142.76
+        }
+      ],
+      "id": "repeat-p02-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 5,
+      "start": 113.28,
+      "end": 116.8,
+      "text": "н.",
+      "words": [
+        {
+          "text": "н.",
+          "start": 113.28,
+          "end": 116.8
+        }
+      ],
+      "id": "repeat-p03-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 6,
+      "start": 142.76,
+      "end": 146.32,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 142.76,
+          "end": 146.32
+        }
+      ],
+      "id": "repeat-p03-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 7,
+      "start": 116.8,
+      "end": 118.17,
+      "text": "ши.",
+      "words": [
+        {
+          "text": "ши.",
+          "start": 116.8,
+          "end": 118.17
+        }
+      ],
+      "id": "repeat-p04-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 8,
+      "start": 146.32,
+      "end": 147.8,
+      "text": "Мыы.",
+      "words": [
+        {
+          "text": "Мыы.",
+          "start": 146.32,
+          "end": 147.8
+        }
+      ],
+      "id": "repeat-p04-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 9,
+      "start": 118.17,
+      "end": 120.66,
+      "text": "Т.",
+      "words": [
+        {
+          "text": "Т.",
+          "start": 118.17,
+          "end": 120.66
+        }
+      ],
+      "id": "repeat-p05-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 10,
+      "start": 147.8,
+      "end": 150.16,
+      "text": "ши.",
+      "words": [
+        {
+          "text": "ши.",
+          "start": 147.8,
+          "end": 150.16
+        }
+      ],
+      "id": "repeat-p05-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 11,
+      "start": 120.66,
+      "end": 124.36,
+      "text": "Рсна.",
+      "words": [
+        {
+          "text": "Рсна.",
+          "start": 120.66,
+          "end": 124.36
+        }
+      ],
+      "id": "repeat-p06-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 12,
+      "start": 150.16,
+      "end": 153.89,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 150.16,
+          "end": 153.89
+        }
+      ],
+      "id": "repeat-p06-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 13,
+      "start": 124.36,
+      "end": 128.05,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 124.36,
+          "end": 128.05
+        }
+      ],
+      "id": "repeat-p07-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 14,
+      "start": 153.89,
+      "end": 157.47,
+      "text": "яечная.",
+      "words": [
+        {
+          "text": "яечная.",
+          "start": 153.89,
+          "end": 157.47
+        }
+      ],
+      "id": "repeat-p07-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 15,
+      "start": 128.05,
+      "end": 132.99,
+      "text": "На нашей еле шся ру.",
+      "words": [
+        {
+          "text": "На",
+          "start": 128.05,
+          "end": 128.09
+        },
+        {
+          "text": "нашей",
+          "start": 128.488,
+          "end": 128.847
+        },
+        {
+          "text": "еле",
+          "start": 128.887,
+          "end": 129.405
+        },
+        {
+          "text": "шся",
+          "start": 129.922,
+          "end": 131.197
+        },
+        {
+          "text": "ру.",
+          "start": 131.596,
+          "end": 132.99
+        }
+      ],
+      "id": "repeat-p08-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 16,
+      "start": 157.47,
+      "end": 162.58,
+      "text": "С.",
+      "words": [
+        {
+          "text": "С.",
+          "start": 157.47,
+          "end": 162.58
+        }
+      ],
+      "id": "repeat-p08-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 17,
+      "start": 103.4,
+      "end": 118.17,
+      "text": "и ши.",
+      "words": [
+        {
+          "text": "и",
+          "start": 103.4,
+          "end": 112.366
+        },
+        {
+          "text": "ши.",
+          "start": 116.809,
+          "end": 118.17
+        }
+      ],
+      "id": "repeat-c01-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 18,
+      "start": 132.99,
+      "end": 147.8,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 132.99,
+          "end": 147.8
+        }
+      ],
+      "id": "repeat-c01-b",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 19,
+      "start": 118.17,
+      "end": 132.99,
+      "text": "я На нашей безле ша.",
+      "words": [
+        {
+          "text": "я",
+          "start": 118.17,
+          "end": 127.517
+        },
+        {
+          "text": "На",
+          "start": 128.157,
+          "end": 128.196
+        },
+        {
+          "text": "нашей",
+          "start": 128.436,
+          "end": 128.796
+        },
+        {
+          "text": "безле",
+          "start": 128.836,
+          "end": 129.395
+        },
+        {
+          "text": "ша.",
+          "start": 130.753,
+          "end": 132.99
+        }
+      ],
+      "id": "repeat-c02-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 20,
+      "start": 147.8,
+      "end": 162.58,
+      "text": "душу я, е.",
+      "words": [
+        {
+          "text": "душу",
+          "start": 147.8,
+          "end": 153.752
+        },
+        {
+          "text": "я,",
+          "start": 154.032,
+          "end": 155.709
+        },
+        {
+          "text": "е.",
+          "start": 155.829,
+          "end": 162.58
+        }
+      ],
+      "id": "repeat-c02-b",
+      "kind": "repeated_context"
+    }
+  ]
+}

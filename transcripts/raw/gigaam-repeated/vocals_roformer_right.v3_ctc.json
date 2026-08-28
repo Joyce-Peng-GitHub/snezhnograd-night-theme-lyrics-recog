@@ -1,0 +1,331 @@
+{
+  "audio": "work/channel_candidates/vocals_roformer_right.flac",
+  "model": "v3_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/repeated-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 103.4,
+      "end": 109.6,
+      "text": "",
+      "words": [],
+      "id": "repeat-p01-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 2,
+      "start": 132.99,
+      "end": 139.11,
+      "text": "наша победа наша побеная любовьене",
+      "words": [
+        {
+          "text": "наша",
+          "start": 133.35,
+          "end": 133.63
+        },
+        {
+          "text": "победа",
+          "start": 133.79,
+          "end": 134.47
+        },
+        {
+          "text": "наша",
+          "start": 135.15,
+          "end": 135.43
+        },
+        {
+          "text": "побеная",
+          "start": 135.63,
+          "end": 136.39
+        },
+        {
+          "text": "любовьене",
+          "start": 136.59,
+          "end": 138.75
+        }
+      ],
+      "id": "repeat-p01-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 3,
+      "start": 109.6,
+      "end": 113.28,
+      "text": "яонеили",
+      "words": [
+        {
+          "text": "яонеили",
+          "start": 111.0,
+          "end": 112.8
+        }
+      ],
+      "id": "repeat-p02-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 4,
+      "start": 139.11,
+      "end": 142.76,
+      "text": "ори е",
+      "words": [
+        {
+          "text": "ори",
+          "start": 139.27,
+          "end": 139.591
+        },
+        {
+          "text": "е",
+          "start": 140.113,
+          "end": 140.153
+        }
+      ],
+      "id": "repeat-p02-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 5,
+      "start": 113.28,
+      "end": 116.8,
+      "text": "уд",
+      "words": [
+        {
+          "text": "уд",
+          "start": 115.6,
+          "end": 116.0
+        }
+      ],
+      "id": "repeat-p03-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 6,
+      "start": 142.76,
+      "end": 146.32,
+      "text": "",
+      "words": [],
+      "id": "repeat-p03-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 7,
+      "start": 116.8,
+      "end": 118.17,
+      "text": "луши",
+      "words": [
+        {
+          "text": "луши",
+          "start": 117.042,
+          "end": 117.445
+        }
+      ],
+      "id": "repeat-p04-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 8,
+      "start": 146.32,
+      "end": 147.8,
+      "text": "ешоы",
+      "words": [
+        {
+          "text": "ешоы",
+          "start": 146.68,
+          "end": 147.44
+        }
+      ],
+      "id": "repeat-p04-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 9,
+      "start": 118.17,
+      "end": 120.66,
+      "text": "",
+      "words": [],
+      "id": "repeat-p05-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 10,
+      "start": 147.8,
+      "end": 150.16,
+      "text": "уши",
+      "words": [
+        {
+          "text": "уши",
+          "start": 148.64,
+          "end": 148.88
+        }
+      ],
+      "id": "repeat-p05-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 11,
+      "start": 120.66,
+      "end": 124.36,
+      "text": "нибу",
+      "words": [
+        {
+          "text": "нибу",
+          "start": 123.405,
+          "end": 123.883
+        }
+      ],
+      "id": "repeat-p06-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 12,
+      "start": 150.16,
+      "end": 153.89,
+      "text": "у",
+      "words": [
+        {
+          "text": "у",
+          "start": 153.489,
+          "end": 153.529
+        }
+      ],
+      "id": "repeat-p06-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 13,
+      "start": 124.36,
+      "end": 128.05,
+      "text": "нино",
+      "words": [
+        {
+          "text": "нино",
+          "start": 125.242,
+          "end": 127.609
+        }
+      ],
+      "id": "repeat-p07-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 14,
+      "start": 153.89,
+      "end": 157.47,
+      "text": "последний",
+      "words": [
+        {
+          "text": "последний",
+          "start": 154.089,
+          "end": 154.924
+        }
+      ],
+      "id": "repeat-p07-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 15,
+      "start": 128.05,
+      "end": 132.99,
+      "text": "оскорейодуши",
+      "words": [
+        {
+          "text": "оскорейодуши",
+          "start": 128.488,
+          "end": 132.193
+        }
+      ],
+      "id": "repeat-p08-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 16,
+      "start": 157.47,
+      "end": 162.58,
+      "text": "принушь",
+      "words": [
+        {
+          "text": "принушь",
+          "start": 160.863,
+          "end": 162.46
+        }
+      ],
+      "id": "repeat-p08-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 17,
+      "start": 103.4,
+      "end": 118.17,
+      "text": "иодуши",
+      "words": [
+        {
+          "text": "иодуши",
+          "start": 116.049,
+          "end": 117.49
+        }
+      ],
+      "id": "repeat-c01-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 18,
+      "start": 132.99,
+      "end": 147.8,
+      "text": "наша поеднаша поеная любоиш",
+      "words": [
+        {
+          "text": "наша",
+          "start": 133.35,
+          "end": 133.63
+        },
+        {
+          "text": "поеднаша",
+          "start": 133.791,
+          "end": 135.392
+        },
+        {
+          "text": "поеная",
+          "start": 135.592,
+          "end": 136.392
+        },
+        {
+          "text": "любоиш",
+          "start": 136.592,
+          "end": 146.959
+        }
+      ],
+      "id": "repeat-c01-b",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 19,
+      "start": 118.17,
+      "end": 132.99,
+      "text": "оуши",
+      "words": [
+        {
+          "text": "оуши",
+          "start": 131.312,
+          "end": 132.191
+        }
+      ],
+      "id": "repeat-c02-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 20,
+      "start": 147.8,
+      "end": 162.58,
+      "text": "тынушь",
+      "words": [
+        {
+          "text": "тынушь",
+          "start": 160.822,
+          "end": 162.46
+        }
+      ],
+      "id": "repeat-c02-b",
+      "kind": "repeated_context"
+    }
+  ]
+}

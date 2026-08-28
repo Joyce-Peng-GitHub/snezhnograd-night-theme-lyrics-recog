@@ -1,0 +1,409 @@
+{
+  "audio": "audio/source.wav",
+  "model": "v3_e2e_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/repeated-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 103.4,
+      "end": 109.6,
+      "text": "без тебя.",
+      "words": [
+        {
+          "text": "без",
+          "start": 108.12,
+          "end": 108.48
+        },
+        {
+          "text": "тебя.",
+          "start": 108.96,
+          "end": 109.6
+        }
+      ],
+      "id": "repeat-p01-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 2,
+      "start": 132.99,
+      "end": 139.11,
+      "text": "ноч у.",
+      "words": [
+        {
+          "text": "ноч",
+          "start": 136.67,
+          "end": 136.95
+        },
+        {
+          "text": "у.",
+          "start": 137.15,
+          "end": 139.11
+        }
+      ],
+      "id": "repeat-p01-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 3,
+      "start": 109.6,
+      "end": 113.28,
+      "text": "да наести.",
+      "words": [
+        {
+          "text": "да",
+          "start": 109.6,
+          "end": 110.96
+        },
+        {
+          "text": "наести.",
+          "start": 111.36,
+          "end": 113.28
+        }
+      ],
+      "id": "repeat-p02-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 4,
+      "start": 139.11,
+      "end": 142.76,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 139.11,
+          "end": 142.76
+        }
+      ],
+      "id": "repeat-p02-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 5,
+      "start": 113.28,
+      "end": 116.8,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 113.28,
+          "end": 116.8
+        }
+      ],
+      "id": "repeat-p03-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 6,
+      "start": 142.76,
+      "end": 146.32,
+      "text": "влюби.",
+      "words": [
+        {
+          "text": "влюби.",
+          "start": 143.8,
+          "end": 146.32
+        }
+      ],
+      "id": "repeat-p03-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 7,
+      "start": 116.8,
+      "end": 118.17,
+      "text": "Наши.",
+      "words": [
+        {
+          "text": "Наши.",
+          "start": 116.8,
+          "end": 118.17
+        }
+      ],
+      "id": "repeat-p04-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 8,
+      "start": 146.32,
+      "end": 147.8,
+      "text": "ша.",
+      "words": [
+        {
+          "text": "ша.",
+          "start": 146.32,
+          "end": 147.8
+        }
+      ],
+      "id": "repeat-p04-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 9,
+      "start": 118.17,
+      "end": 120.66,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 118.17,
+          "end": 120.66
+        }
+      ],
+      "id": "repeat-p05-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 10,
+      "start": 147.8,
+      "end": 150.16,
+      "text": "шае.",
+      "words": [
+        {
+          "text": "шае.",
+          "start": 147.8,
+          "end": 150.16
+        }
+      ],
+      "id": "repeat-p05-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 11,
+      "start": 120.66,
+      "end": 124.36,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 120.66,
+          "end": 124.36
+        }
+      ],
+      "id": "repeat-p06-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 12,
+      "start": 150.16,
+      "end": 153.89,
+      "text": "проснущая ночь.",
+      "words": [
+        {
+          "text": "проснущая",
+          "start": 151.604,
+          "end": 152.687
+        },
+        {
+          "text": "ночь.",
+          "start": 152.887,
+          "end": 153.89
+        }
+      ],
+      "id": "repeat-p06-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 13,
+      "start": 124.36,
+      "end": 128.05,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 124.36,
+          "end": 128.05
+        }
+      ],
+      "id": "repeat-p07-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 14,
+      "start": 153.89,
+      "end": 157.47,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 153.89,
+          "end": 157.47
+        }
+      ],
+      "id": "repeat-p07-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 15,
+      "start": 128.05,
+      "end": 132.99,
+      "text": "Но ша е сошей.",
+      "words": [
+        {
+          "text": "Но",
+          "start": 128.05,
+          "end": 128.289
+        },
+        {
+          "text": "ша",
+          "start": 128.369,
+          "end": 128.687
+        },
+        {
+          "text": "е",
+          "start": 128.847,
+          "end": 129.604
+        },
+        {
+          "text": "сошей.",
+          "start": 131.157,
+          "end": 132.99
+        }
+      ],
+      "id": "repeat-p08-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 16,
+      "start": 157.47,
+      "end": 162.58,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 157.47,
+          "end": 162.58
+        }
+      ],
+      "id": "repeat-p08-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 17,
+      "start": 103.4,
+      "end": 118.17,
+      "text": "любовь,мея  без мея наеки Заече открытыдуши.",
+      "words": [
+        {
+          "text": "любовь,мея",
+          "start": 103.4,
+          "end": 107.203
+        },
+        {
+          "text": "без",
+          "start": 108.083,
+          "end": 108.443
+        },
+        {
+          "text": "мея",
+          "start": 108.563,
+          "end": 109.044
+        },
+        {
+          "text": "наеки",
+          "start": 110.925,
+          "end": 112.286
+        },
+        {
+          "text": "Заече",
+          "start": 113.367,
+          "end": 113.887
+        },
+        {
+          "text": "открытыдуши.",
+          "start": 114.327,
+          "end": 118.17
+        }
+      ],
+      "id": "repeat-c01-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 18,
+      "start": 132.99,
+      "end": 147.8,
+      "text": "вер .",
+      "words": [
+        {
+          "text": "вер",
+          "start": 132.99,
+          "end": 135.872
+        },
+        {
+          "text": ".",
+          "start": 137.193,
+          "end": 147.8
+        }
+      ],
+      "id": "repeat-c01-b",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 19,
+      "start": 118.17,
+      "end": 132.99,
+      "text": "то прошми истина,   наша сторе  содуше.",
+      "words": [
+        {
+          "text": "то",
+          "start": 118.17,
+          "end": 121.046
+        },
+        {
+          "text": "прошми",
+          "start": 122.005,
+          "end": 125.44
+        },
+        {
+          "text": "истина,",
+          "start": 126.599,
+          "end": 128.037
+        },
+        {
+          "text": "наша",
+          "start": 128.396,
+          "end": 128.636
+        },
+        {
+          "text": "сторе",
+          "start": 128.836,
+          "end": 129.355
+        },
+        {
+          "text": "содуше.",
+          "start": 131.152,
+          "end": 132.99
+        }
+      ],
+      "id": "repeat-c02-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 20,
+      "start": 147.8,
+      "end": 162.58,
+      "text": "Сущуюночь, Нагредуяная,ди е.",
+      "words": [
+        {
+          "text": "Сущуюночь,",
+          "start": 147.8,
+          "end": 153.832
+        },
+        {
+          "text": "Нагредуяная,ди",
+          "start": 153.952,
+          "end": 158.466
+        },
+        {
+          "text": "е.",
+          "start": 159.225,
+          "end": 162.58
+        }
+      ],
+      "id": "repeat-c02-b",
+      "kind": "repeated_context"
+    }
+  ]
+}

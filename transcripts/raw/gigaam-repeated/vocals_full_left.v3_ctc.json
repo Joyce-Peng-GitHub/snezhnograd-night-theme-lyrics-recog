@@ -1,0 +1,294 @@
+{
+  "audio": "work/channel_candidates/vocals_full_left.flac",
+  "model": "v3_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/repeated-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 103.4,
+      "end": 109.6,
+      "text": "",
+      "words": [],
+      "id": "repeat-p01-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 2,
+      "start": 132.99,
+      "end": 139.11,
+      "text": "наша побеооо",
+      "words": [
+        {
+          "text": "наша",
+          "start": 133.31,
+          "end": 133.59
+        },
+        {
+          "text": "побеооо",
+          "start": 133.79,
+          "end": 138.71
+        }
+      ],
+      "id": "repeat-p01-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 3,
+      "start": 109.6,
+      "end": 113.28,
+      "text": "уеили",
+      "words": [
+        {
+          "text": "уеили",
+          "start": 110.76,
+          "end": 112.8
+        }
+      ],
+      "id": "repeat-p02-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 4,
+      "start": 139.11,
+      "end": 142.76,
+      "text": "ы",
+      "words": [
+        {
+          "text": "ы",
+          "start": 140.113,
+          "end": 140.153
+        }
+      ],
+      "id": "repeat-p02-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 5,
+      "start": 113.28,
+      "end": 116.8,
+      "text": "ионио",
+      "words": [
+        {
+          "text": "ионио",
+          "start": 115.16,
+          "end": 116.48
+        }
+      ],
+      "id": "repeat-p03-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 6,
+      "start": 142.76,
+      "end": 146.32,
+      "text": "оодеимеадаи",
+      "words": [
+        {
+          "text": "оодеимеадаи",
+          "start": 142.88,
+          "end": 146.08
+        }
+      ],
+      "id": "repeat-p03-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 7,
+      "start": 116.8,
+      "end": 118.17,
+      "text": "луши",
+      "words": [
+        {
+          "text": "луши",
+          "start": 117.042,
+          "end": 117.445
+        }
+      ],
+      "id": "repeat-p04-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 8,
+      "start": 146.32,
+      "end": 147.8,
+      "text": "мышаи",
+      "words": [
+        {
+          "text": "мышаи",
+          "start": 146.48,
+          "end": 147.44
+        }
+      ],
+      "id": "repeat-p04-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 9,
+      "start": 118.17,
+      "end": 120.66,
+      "text": "оо",
+      "words": [
+        {
+          "text": "оо",
+          "start": 119.054,
+          "end": 120.258
+        }
+      ],
+      "id": "repeat-p05-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 10,
+      "start": 147.8,
+      "end": 150.16,
+      "text": "",
+      "words": [],
+      "id": "repeat-p05-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 11,
+      "start": 120.66,
+      "end": 124.36,
+      "text": "нибуь",
+      "words": [
+        {
+          "text": "нибуь",
+          "start": 123.405,
+          "end": 124.121
+        }
+      ],
+      "id": "repeat-p06-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 12,
+      "start": 150.16,
+      "end": 153.89,
+      "text": "",
+      "words": [],
+      "id": "repeat-p06-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 13,
+      "start": 124.36,
+      "end": 128.05,
+      "text": "оистина",
+      "words": [
+        {
+          "text": "оистина",
+          "start": 126.205,
+          "end": 127.569
+        }
+      ],
+      "id": "repeat-p07-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 14,
+      "start": 153.89,
+      "end": 157.47,
+      "text": "",
+      "words": [],
+      "id": "repeat-p07-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 15,
+      "start": 128.05,
+      "end": 132.99,
+      "text": "скоеусдуши",
+      "words": [
+        {
+          "text": "скоеусдуши",
+          "start": 129.165,
+          "end": 132.193
+        }
+      ],
+      "id": "repeat-p08-a",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 16,
+      "start": 157.47,
+      "end": 162.58,
+      "text": "",
+      "words": [],
+      "id": "repeat-p08-b",
+      "kind": "repeated_phrase"
+    },
+    {
+      "index": 17,
+      "start": 103.4,
+      "end": 118.17,
+      "text": "одуши",
+      "words": [
+        {
+          "text": "одуши",
+          "start": 116.489,
+          "end": 117.45
+        }
+      ],
+      "id": "repeat-c01-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 18,
+      "start": 132.99,
+      "end": 147.8,
+      "text": "нш поюие еши",
+      "words": [
+        {
+          "text": "нш",
+          "start": 133.35,
+          "end": 133.55
+        },
+        {
+          "text": "поюие",
+          "start": 133.791,
+          "end": 146.159
+        },
+        {
+          "text": "еши",
+          "start": 146.639,
+          "end": 146.999
+        }
+      ],
+      "id": "repeat-c01-b",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 19,
+      "start": 118.17,
+      "end": 132.99,
+      "text": "истинаадуши",
+      "words": [
+        {
+          "text": "истинаадуши",
+          "start": 126.639,
+          "end": 132.191
+        }
+      ],
+      "id": "repeat-c02-a",
+      "kind": "repeated_context"
+    },
+    {
+      "index": 20,
+      "start": 147.8,
+      "end": 162.58,
+      "text": "его",
+      "words": [
+        {
+          "text": "его",
+          "start": 155.07,
+          "end": 155.27
+        }
+      ],
+      "id": "repeat-c02-b",
+      "kind": "repeated_context"
+    }
+  ]
+}
