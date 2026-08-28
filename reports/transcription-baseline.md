@@ -49,3 +49,14 @@ Agreement between candidates provides limited independent support for phonetic
 fragments such as `по тебе`; most beam outputs are language-model rewrites of
 unstable acoustic tokens and must not be treated as lyrics. The complete raw
 greedy and beam output is stored under `transcripts/raw/xlsr-12s/`.
+
+## Original mix cross-check
+
+The two Russian GigaAM CTC models and `multilingual_large_ctc` were also run
+directly on the unseparated `audio/source.wav`. This tests whether vocal
+separation removed consonant transients along with the accompaniment. The
+original mix improved agreement on several first-passage fragments, especially
+`Боже`, `мои края`, `по тебе`, and `ночь синую`; it was less useful for the
+denser second passage. Results are stored under
+`transcripts/raw/gigaam-source/` and are used alongside, not in place of, the
+three separated candidates.
