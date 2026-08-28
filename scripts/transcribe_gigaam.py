@@ -35,6 +35,8 @@ def make_chunks(audio: Path, chunk_dir: Path, window: float, stride: float) -> l
     start = 0.0
     while start < audio_duration:
         end = min(start + window, audio_duration)
+        if end - start < 1.0:
+            break
         chunk = chunk_dir / audio.stem / f"{start:06.1f}.wav"
         chunk.parent.mkdir(parents=True, exist_ok=True)
         subprocess.run(
