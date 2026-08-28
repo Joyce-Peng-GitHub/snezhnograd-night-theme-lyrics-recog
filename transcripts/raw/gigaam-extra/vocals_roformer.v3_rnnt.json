@@ -1,0 +1,308 @@
+{
+  "audio": "audio/candidates/vocals_roformer.flac",
+  "model": "v3_rnnt",
+  "window_seconds": 12.0,
+  "stride_seconds": 6.0,
+  "chunks": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 12.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 2,
+      "start": 6.0,
+      "end": 18.0,
+      "text": "силе",
+      "words": [
+        {
+          "text": "силе",
+          "start": 14.76,
+          "end": 17.76
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 12.0,
+      "end": 24.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 4,
+      "start": 18.0,
+      "end": 30.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 5,
+      "start": 24.0,
+      "end": 36.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 6,
+      "start": 30.0,
+      "end": 42.0,
+      "text": "морях мои края нечисторочная",
+      "words": [
+        {
+          "text": "морях",
+          "start": 30.24,
+          "end": 32.2
+        },
+        {
+          "text": "мои",
+          "start": 33.16,
+          "end": 33.4
+        },
+        {
+          "text": "края",
+          "start": 33.76,
+          "end": 34.2
+        },
+        {
+          "text": "нечисторочная",
+          "start": 38.64,
+          "end": 40.6
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 36.0,
+      "end": 48.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 8,
+      "start": 42.0,
+      "end": 54.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 9,
+      "start": 48.0,
+      "end": 60.0,
+      "text": "у колочек",
+      "words": [
+        {
+          "text": "у",
+          "start": 57.76,
+          "end": 57.8
+        },
+        {
+          "text": "колочек",
+          "start": 58.0,
+          "end": 58.84
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 54.0,
+      "end": 66.0,
+      "text": "у кого тех услыпая у кого тех у кого",
+      "words": [
+        {
+          "text": "у",
+          "start": 57.76,
+          "end": 57.8
+        },
+        {
+          "text": "кого",
+          "start": 58.0,
+          "end": 58.32
+        },
+        {
+          "text": "тех",
+          "start": 58.68,
+          "end": 58.88
+        },
+        {
+          "text": "услыпая",
+          "start": 59.0,
+          "end": 60.12
+        },
+        {
+          "text": "у",
+          "start": 61.44,
+          "end": 61.48
+        },
+        {
+          "text": "кого",
+          "start": 61.68,
+          "end": 62.0
+        },
+        {
+          "text": "тех",
+          "start": 62.32,
+          "end": 62.52
+        },
+        {
+          "text": "у",
+          "start": 65.12,
+          "end": 65.16
+        },
+        {
+          "text": "кого",
+          "start": 65.36,
+          "end": 65.68
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 60.0,
+      "end": 72.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 12,
+      "start": 66.0,
+      "end": 78.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 13,
+      "start": 72.0,
+      "end": 84.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 14,
+      "start": 78.0,
+      "end": 90.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 15,
+      "start": 84.0,
+      "end": 96.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 16,
+      "start": 90.0,
+      "end": 102.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 17,
+      "start": 96.0,
+      "end": 108.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 18,
+      "start": 102.0,
+      "end": 114.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 19,
+      "start": 108.0,
+      "end": 120.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 20,
+      "start": 114.0,
+      "end": 126.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 21,
+      "start": 120.0,
+      "end": 132.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 22,
+      "start": 126.0,
+      "end": 138.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 23,
+      "start": 132.0,
+      "end": 144.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 24,
+      "start": 138.0,
+      "end": 150.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 25,
+      "start": 144.0,
+      "end": 156.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 26,
+      "start": 150.0,
+      "end": 162.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 27,
+      "start": 156.0,
+      "end": 168.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 28,
+      "start": 162.0,
+      "end": 174.0,
+      "text": "да",
+      "words": [
+        {
+          "text": "да",
+          "start": 173.76,
+          "end": 173.8
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 168.0,
+      "end": 180.0,
+      "text": "",
+      "words": []
+    },
+    {
+      "index": 30,
+      "start": 174.0,
+      "end": 180.01068,
+      "text": "",
+      "words": []
+    }
+  ]
+}
