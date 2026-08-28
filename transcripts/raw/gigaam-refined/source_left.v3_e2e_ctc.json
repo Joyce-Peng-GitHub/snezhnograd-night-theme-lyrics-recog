@@ -1,0 +1,469 @@
+{
+  "audio": "work/channel_candidates/source_left.flac",
+  "model": "v3_e2e_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/refined-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 14.5,
+      "end": 16.3,
+      "text": "Суни.",
+      "words": [
+        {
+          "text": "Суни.",
+          "start": 14.5,
+          "end": 16.3
+        }
+      ],
+      "id": "r1-01",
+      "kind": "refined"
+    },
+    {
+      "index": 2,
+      "start": 16.3,
+      "end": 20.6,
+      "text": "неболюблю.",
+      "words": [
+        {
+          "text": "неболюблю.",
+          "start": 16.3,
+          "end": 20.6
+        }
+      ],
+      "id": "r1-02",
+      "kind": "refined"
+    },
+    {
+      "index": 3,
+      "start": 20.6,
+      "end": 23.7,
+      "text": "Поо серней ночью не ную.",
+      "words": [
+        {
+          "text": "Поо",
+          "start": 20.6,
+          "end": 20.918
+        },
+        {
+          "text": "серней",
+          "start": 21.117,
+          "end": 21.554
+        },
+        {
+          "text": "ночью",
+          "start": 21.753,
+          "end": 22.11
+        },
+        {
+          "text": "не",
+          "start": 22.269,
+          "end": 22.309
+        },
+        {
+          "text": "ную.",
+          "start": 22.428,
+          "end": 23.7
+        }
+      ],
+      "id": "r1-03",
+      "kind": "refined"
+    },
+    {
+      "index": 4,
+      "start": 35.5,
+      "end": 39.8,
+      "text": "Рукомутвоябоая и чисто.",
+      "words": [
+        {
+          "text": "Рукомутвоябоая",
+          "start": 35.5,
+          "end": 37.969
+        },
+        {
+          "text": "и",
+          "start": 38.566,
+          "end": 38.606
+        },
+        {
+          "text": "чисто.",
+          "start": 38.805,
+          "end": 39.8
+        }
+      ],
+      "id": "r1-04",
+      "kind": "refined"
+    },
+    {
+      "index": 5,
+      "start": 39.8,
+      "end": 44.0,
+      "text": "Бошя.",
+      "words": [
+        {
+          "text": "Бошя.",
+          "start": 39.8,
+          "end": 44.0
+        }
+      ],
+      "id": "r1-05",
+      "kind": "refined"
+    },
+    {
+      "index": 6,
+      "start": 44.0,
+      "end": 45.5,
+      "text": "Суми.",
+      "words": [
+        {
+          "text": "Суми.",
+          "start": 44.0,
+          "end": 45.5
+        }
+      ],
+      "id": "r1-06",
+      "kind": "refined"
+    },
+    {
+      "index": 7,
+      "start": 65.0,
+      "end": 68.2,
+      "text": "Срободу во моя.",
+      "words": [
+        {
+          "text": "Срободу",
+          "start": 65.0,
+          "end": 66.12
+        },
+        {
+          "text": "во",
+          "start": 66.52,
+          "end": 66.68
+        },
+        {
+          "text": "моя.",
+          "start": 67.12,
+          "end": 68.2
+        }
+      ],
+      "id": "r1-07",
+      "kind": "refined"
+    },
+    {
+      "index": 8,
+      "start": 68.2,
+      "end": 72.5,
+      "text": "Чистодушая.",
+      "words": [
+        {
+          "text": "Чистодушая.",
+          "start": 68.2,
+          "end": 72.5
+        }
+      ],
+      "id": "r1-08",
+      "kind": "refined"
+    },
+    {
+      "index": 9,
+      "start": 72.5,
+      "end": 74.5,
+      "text": "Вщеславчая.",
+      "words": [
+        {
+          "text": "Вщеславчая.",
+          "start": 72.5,
+          "end": 74.5
+        }
+      ],
+      "id": "r1-09",
+      "kind": "refined"
+    },
+    {
+      "index": 10,
+      "start": 99.5,
+      "end": 103.3,
+      "text": "Д.",
+      "words": [
+        {
+          "text": "Д.",
+          "start": 99.5,
+          "end": 103.3
+        }
+      ],
+      "id": "r2-01",
+      "kind": "refined"
+    },
+    {
+      "index": 11,
+      "start": 103.3,
+      "end": 109.5,
+      "text": "Б тебя без тебя.",
+      "words": [
+        {
+          "text": "Б",
+          "start": 103.3,
+          "end": 103.38
+        },
+        {
+          "text": "тебя",
+          "start": 107.18,
+          "end": 107.22
+        },
+        {
+          "text": "без",
+          "start": 108.1,
+          "end": 108.46
+        },
+        {
+          "text": "тебя.",
+          "start": 108.94,
+          "end": 109.5
+        }
+      ],
+      "id": "r2-02",
+      "kind": "refined"
+    },
+    {
+      "index": 12,
+      "start": 109.5,
+      "end": 113.3,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 109.5,
+          "end": 113.3
+        }
+      ],
+      "id": "r2-03",
+      "kind": "refined"
+    },
+    {
+      "index": 13,
+      "start": 113.3,
+      "end": 116.8,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 113.3,
+          "end": 116.8
+        }
+      ],
+      "id": "r2-04",
+      "kind": "refined"
+    },
+    {
+      "index": 14,
+      "start": 116.8,
+      "end": 118.2,
+      "text": "оси.",
+      "words": [
+        {
+          "text": "оси.",
+          "start": 116.8,
+          "end": 118.2
+        }
+      ],
+      "id": "r2-05",
+      "kind": "refined"
+    },
+    {
+      "index": 15,
+      "start": 118.2,
+      "end": 120.7,
+      "text": "Т.",
+      "words": [
+        {
+          "text": "Т.",
+          "start": 118.2,
+          "end": 120.7
+        }
+      ],
+      "id": "r2-06",
+      "kind": "refined"
+    },
+    {
+      "index": 16,
+      "start": 120.7,
+      "end": 124.4,
+      "text": "ш.",
+      "words": [
+        {
+          "text": "ш.",
+          "start": 120.7,
+          "end": 124.4
+        }
+      ],
+      "id": "r2-07",
+      "kind": "refined"
+    },
+    {
+      "index": 17,
+      "start": 124.4,
+      "end": 128.1,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 124.4,
+          "end": 128.1
+        }
+      ],
+      "id": "r2-08",
+      "kind": "refined"
+    },
+    {
+      "index": 18,
+      "start": 128.1,
+      "end": 133.0,
+      "text": "Наша престаляет душа.",
+      "words": [
+        {
+          "text": "Наша",
+          "start": 128.1,
+          "end": 128.698
+        },
+        {
+          "text": "престаляет",
+          "start": 128.857,
+          "end": 129.693
+        },
+        {
+          "text": "душа.",
+          "start": 130.729,
+          "end": 133.0
+        }
+      ],
+      "id": "r2-09",
+      "kind": "refined"
+    },
+    {
+      "index": 19,
+      "start": 133.0,
+      "end": 137.2,
+      "text": "вернуюноч.",
+      "words": [
+        {
+          "text": "вернуюноч.",
+          "start": 133.0,
+          "end": 137.2
+        }
+      ],
+      "id": "r2-10",
+      "kind": "refined"
+    },
+    {
+      "index": 20,
+      "start": 137.2,
+      "end": 141.0,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 137.2,
+          "end": 141.0
+        }
+      ],
+      "id": "r2-11",
+      "kind": "refined"
+    },
+    {
+      "index": 21,
+      "start": 141.0,
+      "end": 144.7,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 141.0,
+          "end": 144.7
+        }
+      ],
+      "id": "r2-12",
+      "kind": "refined"
+    },
+    {
+      "index": 22,
+      "start": 144.7,
+      "end": 150.1,
+      "text": "ша.",
+      "words": [
+        {
+          "text": "ша.",
+          "start": 144.7,
+          "end": 150.1
+        }
+      ],
+      "id": "r2-13",
+      "kind": "refined"
+    },
+    {
+      "index": 23,
+      "start": 150.1,
+      "end": 153.9,
+      "text": "Уночь.",
+      "words": [
+        {
+          "text": "Уночь.",
+          "start": 150.1,
+          "end": 153.9
+        }
+      ],
+      "id": "r2-14",
+      "kind": "refined"
+    },
+    {
+      "index": 24,
+      "start": 153.9,
+      "end": 157.5,
+      "text": "я ичная.",
+      "words": [
+        {
+          "text": "я",
+          "start": 153.9,
+          "end": 155.22
+        },
+        {
+          "text": "ичная.",
+          "start": 155.86,
+          "end": 157.5
+        }
+      ],
+      "id": "r2-15",
+      "kind": "refined"
+    },
+    {
+      "index": 25,
+      "start": 157.5,
+      "end": 162.5,
+      "text": "рауе.",
+      "words": [
+        {
+          "text": "рауе.",
+          "start": 157.5,
+          "end": 162.5
+        }
+      ],
+      "id": "r2-16",
+      "kind": "refined"
+    },
+    {
+      "index": 26,
+      "start": 162.5,
+      "end": 164.3,
+      "text": ".",
+      "words": [
+        {
+          "text": ".",
+          "start": 162.5,
+          "end": 164.3
+        }
+      ],
+      "id": "r2-17",
+      "kind": "refined"
+    }
+  ]
+}

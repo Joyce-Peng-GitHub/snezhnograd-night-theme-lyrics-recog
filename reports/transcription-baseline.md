@@ -110,3 +110,11 @@ The remaining wide uncertain phrases contain multiple short-time-energy minima.
 without stretching, pitch shifting, or otherwise modifying the audio. This
 final targeted pass tests whether earlier invalid word forms came from joining
 adjacent sung lines.
+
+The refined pass decoded 364 model/input/segment combinations. It separated
+the first passage's `привольная`/`вольная`, `чисто...` and `душа...` roots from
+a final word resembling `вечно славящая`, but did not resolve their exact
+grammar. In the second passage it cleanly separated `истина`,
+`скорей ... сокруши`, and the repeated `наша победа`. Material after 137
+seconds remained unstable and must retain explicit uncertainty. Raw refined
+outputs are archived under `transcripts/raw/gigaam-refined/`.

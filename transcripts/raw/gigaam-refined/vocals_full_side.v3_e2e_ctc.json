@@ -1,0 +1,534 @@
+{
+  "audio": "work/channel_candidates/vocals_full_side.flac",
+  "model": "v3_e2e_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/refined-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 14.5,
+      "end": 16.3,
+      "text": "Суни.",
+      "words": [
+        {
+          "text": "Суни.",
+          "start": 14.5,
+          "end": 16.3
+        }
+      ],
+      "id": "r1-01",
+      "kind": "refined"
+    },
+    {
+      "index": 2,
+      "start": 16.3,
+      "end": 20.6,
+      "text": "Бль сене шлю.",
+      "words": [
+        {
+          "text": "Бль",
+          "start": 16.3,
+          "end": 17.295
+        },
+        {
+          "text": "сене",
+          "start": 17.375,
+          "end": 17.733
+        },
+        {
+          "text": "шлю.",
+          "start": 18.052,
+          "end": 20.6
+        }
+      ],
+      "id": "r1-02",
+      "kind": "refined"
+    },
+    {
+      "index": 3,
+      "start": 20.6,
+      "end": 23.7,
+      "text": "Потепе ночью не ревную.",
+      "words": [
+        {
+          "text": "Потепе",
+          "start": 20.6,
+          "end": 21.435
+        },
+        {
+          "text": "ночью",
+          "start": 21.753,
+          "end": 22.071
+        },
+        {
+          "text": "не",
+          "start": 22.269,
+          "end": 22.309
+        },
+        {
+          "text": "ревную.",
+          "start": 22.428,
+          "end": 23.7
+        }
+      ],
+      "id": "r1-03",
+      "kind": "refined"
+    },
+    {
+      "index": 4,
+      "start": 35.5,
+      "end": 39.8,
+      "text": "У кого улеродная ичизсто.",
+      "words": [
+        {
+          "text": "У",
+          "start": 35.5,
+          "end": 35.58
+        },
+        {
+          "text": "кого",
+          "start": 35.978,
+          "end": 36.177
+        },
+        {
+          "text": "улеродная",
+          "start": 36.575,
+          "end": 37.969
+        },
+        {
+          "text": "ичизсто.",
+          "start": 38.606,
+          "end": 39.8
+        }
+      ],
+      "id": "r1-04",
+      "kind": "refined"
+    },
+    {
+      "index": 5,
+      "start": 39.8,
+      "end": 44.0,
+      "text": "ше.",
+      "words": [
+        {
+          "text": "ше.",
+          "start": 39.8,
+          "end": 44.0
+        }
+      ],
+      "id": "r1-05",
+      "kind": "refined"
+    },
+    {
+      "index": 6,
+      "start": 44.0,
+      "end": 45.5,
+      "text": "Суми.",
+      "words": [
+        {
+          "text": "Суми.",
+          "start": 44.0,
+          "end": 45.5
+        }
+      ],
+      "id": "r1-06",
+      "kind": "refined"
+    },
+    {
+      "index": 7,
+      "start": 65.0,
+      "end": 68.2,
+      "text": "укомородная.",
+      "words": [
+        {
+          "text": "укомородная.",
+          "start": 65.0,
+          "end": 68.2
+        }
+      ],
+      "id": "r1-07",
+      "kind": "refined"
+    },
+    {
+      "index": 8,
+      "start": 68.2,
+      "end": 72.5,
+      "text": "Чисторошая.",
+      "words": [
+        {
+          "text": "Чисторошая.",
+          "start": 68.2,
+          "end": 72.5
+        }
+      ],
+      "id": "r1-08",
+      "kind": "refined"
+    },
+    {
+      "index": 9,
+      "start": 72.5,
+      "end": 74.5,
+      "text": "стестолнучная.",
+      "words": [
+        {
+          "text": "стестолнучная.",
+          "start": 72.5,
+          "end": 74.5
+        }
+      ],
+      "id": "r1-09",
+      "kind": "refined"
+    },
+    {
+      "index": 10,
+      "start": 99.5,
+      "end": 103.3,
+      "text": "Д.",
+      "words": [
+        {
+          "text": "Д.",
+          "start": 99.5,
+          "end": 103.3
+        }
+      ],
+      "id": "r2-01",
+      "kind": "refined"
+    },
+    {
+      "index": 11,
+      "start": 103.3,
+      "end": 109.5,
+      "text": "Гдедуша  наедулино.",
+      "words": [
+        {
+          "text": "Гдедуша",
+          "start": 103.3,
+          "end": 104.02
+        },
+        {
+          "text": "наедулино.",
+          "start": 106.74,
+          "end": 109.5
+        }
+      ],
+      "id": "r2-02",
+      "kind": "refined"
+    },
+    {
+      "index": 12,
+      "start": 109.5,
+      "end": 113.3,
+      "text": "Дй раз уля побешили.",
+      "words": [
+        {
+          "text": "Дй",
+          "start": 109.5,
+          "end": 110.3
+        },
+        {
+          "text": "раз",
+          "start": 110.42,
+          "end": 110.46
+        },
+        {
+          "text": "уля",
+          "start": 110.66,
+          "end": 110.94
+        },
+        {
+          "text": "побешили.",
+          "start": 111.38,
+          "end": 113.3
+        }
+      ],
+      "id": "r2-03",
+      "kind": "refined"
+    },
+    {
+      "index": 13,
+      "start": 113.3,
+      "end": 116.8,
+      "text": "Сыш.",
+      "words": [
+        {
+          "text": "Сыш.",
+          "start": 113.3,
+          "end": 116.8
+        }
+      ],
+      "id": "r2-04",
+      "kind": "refined"
+    },
+    {
+      "index": 14,
+      "start": 116.8,
+      "end": 118.2,
+      "text": "Лучши.",
+      "words": [
+        {
+          "text": "Лучши.",
+          "start": 116.8,
+          "end": 118.2
+        }
+      ],
+      "id": "r2-05",
+      "kind": "refined"
+    },
+    {
+      "index": 15,
+      "start": 118.2,
+      "end": 120.7,
+      "text": "И.",
+      "words": [
+        {
+          "text": "И.",
+          "start": 118.2,
+          "end": 120.7
+        }
+      ],
+      "id": "r2-06",
+      "kind": "refined"
+    },
+    {
+      "index": 16,
+      "start": 120.7,
+      "end": 124.4,
+      "text": "и буд.",
+      "words": [
+        {
+          "text": "и",
+          "start": 123.366,
+          "end": 123.405
+        },
+        {
+          "text": "буд.",
+          "start": 123.684,
+          "end": 124.4
+        }
+      ],
+      "id": "r2-07",
+      "kind": "refined"
+    },
+    {
+      "index": 17,
+      "start": 124.4,
+      "end": 128.1,
+      "text": "истина.",
+      "words": [
+        {
+          "text": "истина.",
+          "start": 126.628,
+          "end": 128.1
+        }
+      ],
+      "id": "r2-08",
+      "kind": "refined"
+    },
+    {
+      "index": 18,
+      "start": 128.1,
+      "end": 133.0,
+      "text": "Ноша бе скорекину согруши.",
+      "words": [
+        {
+          "text": "Ноша",
+          "start": 128.1,
+          "end": 128.698
+        },
+        {
+          "text": "бе",
+          "start": 128.857,
+          "end": 128.976
+        },
+        {
+          "text": "скорекину",
+          "start": 129.056,
+          "end": 130.809
+        },
+        {
+          "text": "согруши.",
+          "start": 131.207,
+          "end": 133.0
+        }
+      ],
+      "id": "r2-09",
+      "kind": "refined"
+    },
+    {
+      "index": 19,
+      "start": 133.0,
+      "end": 137.2,
+      "text": "Ероша победы, роша победа его.",
+      "words": [
+        {
+          "text": "Ероша",
+          "start": 133.0,
+          "end": 133.6
+        },
+        {
+          "text": "победы,",
+          "start": 133.8,
+          "end": 134.8
+        },
+        {
+          "text": "роша",
+          "start": 134.84,
+          "end": 135.4
+        },
+        {
+          "text": "победа",
+          "start": 135.64,
+          "end": 136.2
+        },
+        {
+          "text": "его.",
+          "start": 136.44,
+          "end": 137.2
+        }
+      ],
+      "id": "r2-10",
+      "kind": "refined"
+    },
+    {
+      "index": 20,
+      "start": 137.2,
+      "end": 141.0,
+      "text": "На сведу ю .",
+      "words": [
+        {
+          "text": "На",
+          "start": 137.2,
+          "end": 137.24
+        },
+        {
+          "text": "сведу",
+          "start": 137.6,
+          "end": 137.92
+        },
+        {
+          "text": "ю",
+          "start": 138.4,
+          "end": 138.64
+        },
+        {
+          "text": ".",
+          "start": 139.04,
+          "end": 141.0
+        }
+      ],
+      "id": "r2-11",
+      "kind": "refined"
+    },
+    {
+      "index": 21,
+      "start": 141.0,
+      "end": 144.7,
+      "text": "С.",
+      "words": [
+        {
+          "text": "С.",
+          "start": 141.0,
+          "end": 144.7
+        }
+      ],
+      "id": "r2-12",
+      "kind": "refined"
+    },
+    {
+      "index": 22,
+      "start": 144.7,
+      "end": 150.1,
+      "text": "Хранителю навидившей ший.",
+      "words": [
+        {
+          "text": "Хранителю",
+          "start": 144.7,
+          "end": 145.54
+        },
+        {
+          "text": "навидившей",
+          "start": 145.78,
+          "end": 147.22
+        },
+        {
+          "text": "ший.",
+          "start": 147.82,
+          "end": 150.1
+        }
+      ],
+      "id": "r2-13",
+      "kind": "refined"
+    },
+    {
+      "index": 23,
+      "start": 150.1,
+      "end": 153.9,
+      "text": "цсямуш.",
+      "words": [
+        {
+          "text": "цсямуш.",
+          "start": 150.1,
+          "end": 153.9
+        }
+      ],
+      "id": "r2-14",
+      "kind": "refined"
+    },
+    {
+      "index": 24,
+      "start": 153.9,
+      "end": 157.5,
+      "text": "го на меня.",
+      "words": [
+        {
+          "text": "го",
+          "start": 153.9,
+          "end": 155.26
+        },
+        {
+          "text": "на",
+          "start": 156.54,
+          "end": 156.58
+        },
+        {
+          "text": "меня.",
+          "start": 156.78,
+          "end": 157.5
+        }
+      ],
+      "id": "r2-15",
+      "kind": "refined"
+    },
+    {
+      "index": 25,
+      "start": 157.5,
+      "end": 162.5,
+      "text": "С.",
+      "words": [
+        {
+          "text": "С.",
+          "start": 157.5,
+          "end": 162.5
+        }
+      ],
+      "id": "r2-16",
+      "kind": "refined"
+    },
+    {
+      "index": 26,
+      "start": 162.5,
+      "end": 164.3,
+      "text": "ри.",
+      "words": [
+        {
+          "text": "ри.",
+          "start": 162.5,
+          "end": 164.3
+        }
+      ],
+      "id": "r2-17",
+      "kind": "refined"
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "audio": "work/channel_candidates/vocals_full_left.flac",
+  "model": "v3_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/refined-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 14.5,
+      "end": 16.3,
+      "text": "сони",
+      "words": [
+        {
+          "text": "сони",
+          "start": 14.86,
+          "end": 15.82
+        }
+      ],
+      "id": "r1-01",
+      "kind": "refined"
+    },
+    {
+      "index": 2,
+      "start": 16.3,
+      "end": 20.6,
+      "text": "оееоеею",
+      "words": [
+        {
+          "text": "оееоеею",
+          "start": 17.136,
+          "end": 19.605
+        }
+      ],
+      "id": "r1-02",
+      "kind": "refined"
+    },
+    {
+      "index": 3,
+      "start": 20.6,
+      "end": 23.7,
+      "text": "оую",
+      "words": [
+        {
+          "text": "оую",
+          "start": 20.838,
+          "end": 23.263
+        }
+      ],
+      "id": "r1-03",
+      "kind": "refined"
+    },
+    {
+      "index": 4,
+      "start": 35.5,
+      "end": 39.8,
+      "text": "нукооооя",
+      "words": [
+        {
+          "text": "нукооооя",
+          "start": 35.659,
+          "end": 38.008
+        }
+      ],
+      "id": "r1-04",
+      "kind": "refined"
+    },
+    {
+      "index": 5,
+      "start": 39.8,
+      "end": 44.0,
+      "text": "лушае",
+      "words": [
+        {
+          "text": "лушае",
+          "start": 40.04,
+          "end": 40.76
+        }
+      ],
+      "id": "r1-05",
+      "kind": "refined"
+    },
+    {
+      "index": 6,
+      "start": 44.0,
+      "end": 45.5,
+      "text": "соми",
+      "words": [
+        {
+          "text": "соми",
+          "start": 44.276,
+          "end": 45.342
+        }
+      ],
+      "id": "r1-06",
+      "kind": "refined"
+    },
+    {
+      "index": 7,
+      "start": 65.0,
+      "end": 68.2,
+      "text": "у когоду венольноя",
+      "words": [
+        {
+          "text": "у",
+          "start": 65.24,
+          "end": 65.28
+        },
+        {
+          "text": "когоду",
+          "start": 65.44,
+          "end": 66.16
+        },
+        {
+          "text": "венольноя",
+          "start": 66.36,
+          "end": 67.56
+        }
+      ],
+      "id": "r1-07",
+      "kind": "refined"
+    },
+    {
+      "index": 8,
+      "start": 68.2,
+      "end": 72.5,
+      "text": "чисрошая",
+      "words": [
+        {
+          "text": "чисрошая",
+          "start": 68.519,
+          "end": 70.31
+        }
+      ],
+      "id": "r1-08",
+      "kind": "refined"
+    },
+    {
+      "index": 9,
+      "start": 72.5,
+      "end": 74.5,
+      "text": "исчесаюшая",
+      "words": [
+        {
+          "text": "исчесаюшая",
+          "start": 72.62,
+          "end": 73.98
+        }
+      ],
+      "id": "r1-09",
+      "kind": "refined"
+    },
+    {
+      "index": 10,
+      "start": 99.5,
+      "end": 103.3,
+      "text": "",
+      "words": [],
+      "id": "r2-01",
+      "kind": "refined"
+    },
+    {
+      "index": 11,
+      "start": 103.3,
+      "end": 109.5,
+      "text": "",
+      "words": [],
+      "id": "r2-02",
+      "kind": "refined"
+    },
+    {
+      "index": 12,
+      "start": 109.5,
+      "end": 113.3,
+      "text": "неили",
+      "words": [
+        {
+          "text": "неили",
+          "start": 111.86,
+          "end": 112.78
+        }
+      ],
+      "id": "r2-03",
+      "kind": "refined"
+    },
+    {
+      "index": 13,
+      "start": 113.3,
+      "end": 116.8,
+      "text": "оио",
+      "words": [
+        {
+          "text": "оио",
+          "start": 115.527,
+          "end": 116.482
+        }
+      ],
+      "id": "r2-04",
+      "kind": "refined"
+    },
+    {
+      "index": 14,
+      "start": 116.8,
+      "end": 118.2,
+      "text": "луши",
+      "words": [
+        {
+          "text": "луши",
+          "start": 117.04,
+          "end": 117.44
+        }
+      ],
+      "id": "r2-05",
+      "kind": "refined"
+    },
+    {
+      "index": 15,
+      "start": 118.2,
+      "end": 120.7,
+      "text": "о",
+      "words": [
+        {
+          "text": "о",
+          "start": 119.033,
+          "end": 119.073
+        }
+      ],
+      "id": "r2-06",
+      "kind": "refined"
+    },
+    {
+      "index": 16,
+      "start": 120.7,
+      "end": 124.4,
+      "text": "ниудь",
+      "words": [
+        {
+          "text": "ниудь",
+          "start": 123.445,
+          "end": 124.122
+        }
+      ],
+      "id": "r2-07",
+      "kind": "refined"
+    },
+    {
+      "index": 17,
+      "start": 124.4,
+      "end": 128.1,
+      "text": "истина",
+      "words": [
+        {
+          "text": "истина",
+          "start": 126.628,
+          "end": 127.543
+        }
+      ],
+      "id": "r2-08",
+      "kind": "refined"
+    },
+    {
+      "index": 18,
+      "start": 128.1,
+      "end": 133.0,
+      "text": "скореусолуши",
+      "words": [
+        {
+          "text": "скореусолуши",
+          "start": 129.136,
+          "end": 132.203
+        }
+      ],
+      "id": "r2-09",
+      "kind": "refined"
+    },
+    {
+      "index": 19,
+      "start": 133.0,
+      "end": 137.2,
+      "text": "на победыо победыо",
+      "words": [
+        {
+          "text": "на",
+          "start": 133.32,
+          "end": 133.64
+        },
+        {
+          "text": "победыо",
+          "start": 133.84,
+          "end": 135.2
+        },
+        {
+          "text": "победыо",
+          "start": 135.64,
+          "end": 136.88
+        }
+      ],
+      "id": "r2-10",
+      "kind": "refined"
+    },
+    {
+      "index": 20,
+      "start": 137.2,
+      "end": 141.0,
+      "text": "еы",
+      "words": [
+        {
+          "text": "еы",
+          "start": 139.56,
+          "end": 140.08
+        }
+      ],
+      "id": "r2-11",
+      "kind": "refined"
+    },
+    {
+      "index": 21,
+      "start": 141.0,
+      "end": 144.7,
+      "text": "молодец и",
+      "words": [
+        {
+          "text": "молодец",
+          "start": 142.79,
+          "end": 143.467
+        },
+        {
+          "text": "и",
+          "start": 144.223,
+          "end": 144.262
+        }
+      ],
+      "id": "r2-12",
+      "kind": "refined"
+    },
+    {
+      "index": 22,
+      "start": 144.7,
+      "end": 150.1,
+      "text": "уо",
+      "words": [
+        {
+          "text": "уо",
+          "start": 148.58,
+          "end": 148.86
+        }
+      ],
+      "id": "r2-13",
+      "kind": "refined"
+    },
+    {
+      "index": 23,
+      "start": 150.1,
+      "end": 153.9,
+      "text": "",
+      "words": [],
+      "id": "r2-14",
+      "kind": "refined"
+    },
+    {
+      "index": 24,
+      "start": 153.9,
+      "end": 157.5,
+      "text": "",
+      "words": [],
+      "id": "r2-15",
+      "kind": "refined"
+    },
+    {
+      "index": 25,
+      "start": 157.5,
+      "end": 162.5,
+      "text": "аеи",
+      "words": [
+        {
+          "text": "аеи",
+          "start": 158.94,
+          "end": 160.38
+        }
+      ],
+      "id": "r2-16",
+      "kind": "refined"
+    },
+    {
+      "index": 26,
+      "start": 162.5,
+      "end": 164.3,
+      "text": "",
+      "words": [],
+      "id": "r2-17",
+      "kind": "refined"
+    }
+  ]
+}

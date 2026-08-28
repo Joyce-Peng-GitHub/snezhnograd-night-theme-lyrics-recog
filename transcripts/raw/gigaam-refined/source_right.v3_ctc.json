@@ -1,0 +1,437 @@
+{
+  "audio": "work/channel_candidates/source_right.flac",
+  "model": "v3_ctc",
+  "window_seconds": null,
+  "stride_seconds": null,
+  "segment_manifest": "config/refined-segments.json",
+  "chunks": [
+    {
+      "index": 1,
+      "start": 14.5,
+      "end": 16.3,
+      "text": "сони",
+      "words": [
+        {
+          "text": "сони",
+          "start": 14.82,
+          "end": 15.82
+        }
+      ],
+      "id": "r1-01",
+      "kind": "refined"
+    },
+    {
+      "index": 2,
+      "start": 16.3,
+      "end": 20.6,
+      "text": "отее си мою",
+      "words": [
+        {
+          "text": "отее",
+          "start": 17.136,
+          "end": 17.733
+        },
+        {
+          "text": "си",
+          "start": 18.649,
+          "end": 18.729
+        },
+        {
+          "text": "мою",
+          "start": 19.286,
+          "end": 19.605
+        }
+      ],
+      "id": "r1-02",
+      "kind": "refined"
+    },
+    {
+      "index": 3,
+      "start": 20.6,
+      "end": 23.7,
+      "text": "посепеочревную",
+      "words": [
+        {
+          "text": "посепеочревную",
+          "start": 20.799,
+          "end": 23.223
+        }
+      ],
+      "id": "r1-03",
+      "kind": "refined"
+    },
+    {
+      "index": 4,
+      "start": 35.5,
+      "end": 39.8,
+      "text": "оаяи",
+      "words": [
+        {
+          "text": "оаяи",
+          "start": 37.093,
+          "end": 38.964
+        }
+      ],
+      "id": "r1-04",
+      "kind": "refined"
+    },
+    {
+      "index": 5,
+      "start": 39.8,
+      "end": 44.0,
+      "text": "шаря",
+      "words": [
+        {
+          "text": "шаря",
+          "start": 40.28,
+          "end": 40.84
+        }
+      ],
+      "id": "r1-05",
+      "kind": "refined"
+    },
+    {
+      "index": 6,
+      "start": 44.0,
+      "end": 45.5,
+      "text": "сое",
+      "words": [
+        {
+          "text": "сое",
+          "start": 44.316,
+          "end": 45.303
+        }
+      ],
+      "id": "r1-06",
+      "kind": "refined"
+    },
+    {
+      "index": 7,
+      "start": 65.0,
+      "end": 68.2,
+      "text": "у кого мрероное",
+      "words": [
+        {
+          "text": "у",
+          "start": 65.24,
+          "end": 65.28
+        },
+        {
+          "text": "кого",
+          "start": 65.44,
+          "end": 65.72
+        },
+        {
+          "text": "мрероное",
+          "start": 66.12,
+          "end": 67.56
+        }
+      ],
+      "id": "r1-07",
+      "kind": "refined"
+    },
+    {
+      "index": 8,
+      "start": 68.2,
+      "end": 72.5,
+      "text": "чисть хорошлая",
+      "words": [
+        {
+          "text": "чисть",
+          "start": 68.519,
+          "end": 68.837
+        },
+        {
+          "text": "хорошлая",
+          "start": 69.036,
+          "end": 70.31
+        }
+      ],
+      "id": "r1-08",
+      "kind": "refined"
+    },
+    {
+      "index": 9,
+      "start": 72.5,
+      "end": 74.5,
+      "text": "лду",
+      "words": [
+        {
+          "text": "лду",
+          "start": 73.14,
+          "end": 73.62
+        }
+      ],
+      "id": "r1-09",
+      "kind": "refined"
+    },
+    {
+      "index": 10,
+      "start": 99.5,
+      "end": 103.3,
+      "text": "",
+      "words": [],
+      "id": "r2-01",
+      "kind": "refined"
+    },
+    {
+      "index": 11,
+      "start": 103.3,
+      "end": 109.5,
+      "text": "ино",
+      "words": [
+        {
+          "text": "ино",
+          "start": 108.7,
+          "end": 109.14
+        }
+      ],
+      "id": "r2-02",
+      "kind": "refined"
+    },
+    {
+      "index": 12,
+      "start": 109.5,
+      "end": 113.3,
+      "text": "аоеси",
+      "words": [
+        {
+          "text": "аоеси",
+          "start": 110.9,
+          "end": 112.42
+        }
+      ],
+      "id": "r2-03",
+      "kind": "refined"
+    },
+    {
+      "index": 13,
+      "start": 113.3,
+      "end": 116.8,
+      "text": "заиавеуиа",
+      "words": [
+        {
+          "text": "заиавеуиа",
+          "start": 113.459,
+          "end": 116.482
+        }
+      ],
+      "id": "r2-04",
+      "kind": "refined"
+    },
+    {
+      "index": 14,
+      "start": 116.8,
+      "end": 118.2,
+      "text": "души",
+      "words": [
+        {
+          "text": "души",
+          "start": 117.0,
+          "end": 117.48
+        }
+      ],
+      "id": "r2-05",
+      "kind": "refined"
+    },
+    {
+      "index": 15,
+      "start": 118.2,
+      "end": 120.7,
+      "text": "",
+      "words": [],
+      "id": "r2-06",
+      "kind": "refined"
+    },
+    {
+      "index": 16,
+      "start": 120.7,
+      "end": 124.4,
+      "text": "ино",
+      "words": [
+        {
+          "text": "ино",
+          "start": 123.445,
+          "end": 123.883
+        }
+      ],
+      "id": "r2-07",
+      "kind": "refined"
+    },
+    {
+      "index": 17,
+      "start": 124.4,
+      "end": 128.1,
+      "text": "оиина",
+      "words": [
+        {
+          "text": "оиина",
+          "start": 126.23,
+          "end": 127.543
+        }
+      ],
+      "id": "r2-08",
+      "kind": "refined"
+    },
+    {
+      "index": 18,
+      "start": 128.1,
+      "end": 133.0,
+      "text": "аа бесноленость сокруши",
+      "words": [
+        {
+          "text": "аа",
+          "start": 128.459,
+          "end": 128.737
+        },
+        {
+          "text": "бесноленость",
+          "start": 128.937,
+          "end": 130.251
+        },
+        {
+          "text": "сокруши",
+          "start": 131.247,
+          "end": 132.163
+        }
+      ],
+      "id": "r2-09",
+      "kind": "refined"
+    },
+    {
+      "index": 19,
+      "start": 133.0,
+      "end": 137.2,
+      "text": "ое",
+      "words": [
+        {
+          "text": "ое",
+          "start": 135.64,
+          "end": 135.92
+        }
+      ],
+      "id": "r2-10",
+      "kind": "refined"
+    },
+    {
+      "index": 20,
+      "start": 137.2,
+      "end": 141.0,
+      "text": "оеменя ое меня",
+      "words": [
+        {
+          "text": "оеменя",
+          "start": 137.36,
+          "end": 138.64
+        },
+        {
+          "text": "ое",
+          "start": 139.16,
+          "end": 139.6
+        },
+        {
+          "text": "меня",
+          "start": 140.04,
+          "end": 140.48
+        }
+      ],
+      "id": "r2-11",
+      "kind": "refined"
+    },
+    {
+      "index": 21,
+      "start": 141.0,
+      "end": 144.7,
+      "text": "на море",
+      "words": [
+        {
+          "text": "на",
+          "start": 142.313,
+          "end": 142.392
+        },
+        {
+          "text": "море",
+          "start": 142.79,
+          "end": 143.228
+        }
+      ],
+      "id": "r2-12",
+      "kind": "refined"
+    },
+    {
+      "index": 22,
+      "start": 144.7,
+      "end": 150.1,
+      "text": "идуши",
+      "words": [
+        {
+          "text": "идуши",
+          "start": 146.5,
+          "end": 148.86
+        }
+      ],
+      "id": "r2-13",
+      "kind": "refined"
+    },
+    {
+      "index": 23,
+      "start": 150.1,
+      "end": 153.9,
+      "text": "боюь",
+      "words": [
+        {
+          "text": "боюь",
+          "start": 152.94,
+          "end": 153.7
+        }
+      ],
+      "id": "r2-14",
+      "kind": "refined"
+    },
+    {
+      "index": 24,
+      "start": 153.9,
+      "end": 157.5,
+      "text": "биоя",
+      "words": [
+        {
+          "text": "биоя",
+          "start": 156.1,
+          "end": 157.1
+        }
+      ],
+      "id": "r2-15",
+      "kind": "refined"
+    },
+    {
+      "index": 25,
+      "start": 157.5,
+      "end": 162.5,
+      "text": "би",
+      "words": [
+        {
+          "text": "би",
+          "start": 160.3,
+          "end": 160.38
+        }
+      ],
+      "id": "r2-16",
+      "kind": "refined"
+    },
+    {
+      "index": 26,
+      "start": 162.5,
+      "end": 164.3,
+      "text": "а",
+      "words": [
+        {
+          "text": "а",
+          "start": 162.62,
+          "end": 162.66
+        }
+      ],
+      "id": "r2-17",
+      "kind": "refined"
+    }
+  ]
+}
